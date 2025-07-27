@@ -1,0 +1,382 @@
+{
+  "financialHealthScore": {
+    "score": 85,
+    "maxScore": 100,
+    "status": "Excellent",
+    "statusColor": {
+      "value": 4280391411,
+      "alpha": 255,
+      "red": 34,
+      "green": 197,
+      "blue": 94,
+      "opacity": 1.0
+    },
+    "description": "Your financial health is excellent! You have strong savings, manageable debt, and good investment diversification. Keep up the great work!"
+  },
+  "keyMetrics": [
+    {
+      "label": "Emergency Fund",
+              "value": "₹15,200",
+      "trend": "+12%",
+      "isPositiveTrend": true,
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "status": "Well Funded"
+    },
+    {
+      "label": "Debt-to-Income",
+      "value": "28%",
+      "trend": "-3%",
+      "isPositiveTrend": true,
+      "icon": {
+        "codePoint": 58667,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "status": "Good"
+    },
+    {
+      "label": "Savings Rate",
+      "value": "22%",
+      "trend": "+5%",
+      "isPositiveTrend": true,
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "status": "Excellent"
+    },
+    {
+      "label": "Investment Growth",
+              "value": "₹8,450",
+      "trend": "+8.5%",
+      "isPositiveTrend": true,
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "status": "Growing"
+    }
+  ],
+  "scoreBreakdown": [
+    {
+      "category": "Savings & Emergency Fund",
+      "percentage": 95.0,
+      "color": {
+        "value": 4280391411,
+        "alpha": 255,
+        "red": 34,
+        "green": 197,
+        "blue": 94,
+        "opacity": 1.0
+      }
+    },
+    {
+      "category": "Debt Management",
+      "percentage": 88.0,
+      "color": {
+        "value": 4280391411,
+        "alpha": 255,
+        "red": 34,
+        "green": 197,
+        "blue": 94,
+        "opacity": 1.0
+      }
+    },
+    {
+      "category": "Investment Portfolio",
+      "percentage": 82.0,
+      "color": {
+        "value": 4294951175,
+        "alpha": 255,
+        "red": 245,
+        "green": 158,
+        "blue": 11,
+        "opacity": 1.0
+      }
+    },
+    {
+      "category": "Income Stability",
+      "percentage": 92.0,
+      "color": {
+        "value": 4280391411,
+        "alpha": 255,
+        "red": 34,
+        "green": 197,
+        "blue": 94,
+        "opacity": 1.0
+      }
+    },
+    {
+      "category": "Insurance Coverage",
+      "percentage": 78.0,
+      "color": {
+        "value": 4294198070,
+        "alpha": 255,
+        "red": 239,
+        "green": 68,
+        "blue": 68,
+        "opacity": 1.0
+      }
+    }
+  ],
+  "financialInsights": [
+    {
+      "text": "Your emergency fund covers 6.2 months of expenses - excellent!",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "iconColor": {
+        "value": 4280391411,
+        "alpha": 255,
+        "red": 34,
+        "green": 197,
+        "blue": 94,
+        "opacity": 1.0
+      }
+    },
+    {
+      "text": "Consider increasing your retirement contributions to maximize tax benefits",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "iconColor": {
+        "value": 4294951175,
+        "alpha": 255,
+        "red": 245,
+        "green": 158,
+        "blue": 11,
+        "opacity": 1.0
+      }
+    },
+    {
+      "text": "Your debt-to-income ratio is well below the recommended 36% threshold",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "iconColor": {
+        "value": 4280391411,
+        "alpha": 255,
+        "red": 34,
+        "green": 197,
+        "blue": 94,
+        "opacity": 1.0
+      }
+    },
+    {
+      "text": "Review your insurance coverage - you may need additional protection",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "iconColor": {
+        "value": 4294198070,
+        "alpha": 255,
+        "red": 239,
+        "green": 68,
+        "blue": 68,
+        "opacity": 1.0
+      }
+    },
+    {
+      "text": "Your investment portfolio shows good diversification across asset classes",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "iconColor": {
+        "value": 4280391411,
+        "alpha": 255,
+        "red": 34,
+        "green": 197,
+        "blue": 94,
+        "opacity": 1.0
+      }
+    },
+    {
+      "text": "Consider setting up automatic transfers to increase your savings rate",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "iconColor": {
+        "value": 4294951175,
+        "alpha": 255,
+        "red": 245,
+        "green": 158,
+        "blue": 11,
+        "opacity": 1.0
+      }
+    }
+  ],
+  "monthlyTrend": {
+    "data": [
+      72.0,
+      75.0,
+      78.0,
+      81.0,
+      83.0,
+      85.0,
+      87.0,
+      89.0,
+      91.0,
+      93.0,
+      95.0,
+      97.0
+    ],
+    "labels": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ]
+  },
+  "detailedMetrics": {
+    "emergencyFund": {
+      "currentAmount": 15200.0,
+      "targetAmount": 18000.0,
+      "monthsCovered": 6.2,
+      "recommendedMonths": 6.0,
+      "status": "Well Funded",
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    },
+    "debtManagement": {
+      "totalDebt": 45000.0,
+      "monthlyIncome": 8500.0,
+      "debtToIncomeRatio": 28.0,
+      "recommendedRatio": 36.0,
+      "status": "Good",
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    },
+    "savingsRate": {
+      "monthlySavings": 1870.0,
+      "monthlyIncome": 8500.0,
+      "savingsRate": 22.0,
+      "recommendedRate": 20.0,
+      "status": "Excellent",
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    },
+    "investmentPortfolio": {
+      "totalValue": 125000.0,
+      "monthlyGrowth": 8450.0,
+      "growthRate": 8.5,
+      "diversificationScore": 82.0,
+      "status": "Growing",
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    },
+    "insuranceCoverage": {
+      "healthInsurance": true,
+      "lifeInsurance": true,
+      "disabilityInsurance": false,
+      "autoInsurance": true,
+      "homeInsurance": true,
+      "coverageScore": 78.0,
+      "status": "Needs Improvement",
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    }
+  },
+  "recommendations": [
+    {
+      "priority": "High",
+      "category": "Insurance",
+      "title": "Add Disability Insurance",
+      "description": "Protect your income with disability insurance coverage",
+      "estimatedCost": 150.0,
+      "potentialBenefit": "Income protection during disability",
+      "actionText": "Get Quote",
+      "actionColor": {
+        "value": 4280391411,
+        "alpha": 255,
+        "red": 34,
+        "green": 197,
+        "blue": 94,
+        "opacity": 1.0
+      }
+    },
+    {
+      "priority": "Medium",
+      "category": "Retirement",
+      "title": "Increase 401(k) Contributions",
+      "description": "Maximize your retirement contributions to reduce tax liability",
+      "estimatedCost": 500.0,
+      "potentialBenefit": "Tax savings and retirement growth",
+      "actionText": "Update Contributions",
+      "actionColor": {
+        "value": 4294951175,
+        "alpha": 255,
+        "red": 245,
+        "green": 158,
+        "blue": 11,
+        "opacity": 1.0
+      }
+    },
+    {
+      "priority": "Low",
+      "category": "Emergency Fund",
+      "title": "Increase Emergency Fund",
+              "description": "Add ₹2,800 to reach 8 months of expenses coverage",
+      "estimatedCost": 2800.0,
+      "potentialBenefit": "Enhanced financial security",
+      "actionText": "Set Goal",
+      "actionColor": {
+        "value": 4280391411,
+        "alpha": 255,
+        "red": 34,
+        "green": 197,
+        "blue": 94,
+        "opacity": 1.0
+      }
+    }
+  ],
+  "metadata": {
+    "generatedAt": "2024-01-15T10:30:00Z",
+    "version": "1.0.0",
+    "description": "Sample JSON for FinancialHealthScoreModel and all nested models with realistic financial health data",
+    "notes": {
+      "colorValues": "Color values are represented as ARGB integers (e.g., 4280391411 = #22C55E for green)",
+      "iconCodePoints": "Icon code points correspond to Material Icons (e.g., 59530 = Icons.home)",
+      "dateTimeFormat": "DateTime objects include timezone information for accuracy",
+      "primitiveTypes": "All primitive types (int, double, bool, String) are represented as JSON primitives",
+      "nestedStructures": "All nested models are fully expanded until reaching primitive types",
+      "financialMetrics": {
+        "emergencyFund": "Should cover 6-8 months of expenses",
+        "debtToIncome": "Should be below 36% for good financial health",
+        "savingsRate": "Recommended 20% of income",
+        "investmentGrowth": "Historical performance and diversification",
+        "insuranceCoverage": "Comprehensive protection assessment"
+      }
+    }
+  }
+}

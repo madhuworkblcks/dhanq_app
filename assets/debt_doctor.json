@@ -1,0 +1,183 @@
+{
+  "debtOverview": {
+    "totalDebt": 850000,
+    "monthlyPayment": 25000,
+    "totalInterest": 180000,
+    "debtToIncomeRatio": 35.0,
+    "creditScore": 720,
+    "paymentHistory": "Good",
+    "utilizationRate": 65.0
+  },
+  "debtBreakdown": {
+    "creditCards": 45.0,
+    "personalLoans": 30.0,
+    "homeLoan": 15.0,
+    "studentLoan": 10.0
+  },
+  "debts": [
+    {
+      "id": "1",
+      "name": "HDFC Credit Card",
+      "type": "Credit Card",
+      "balance": 150000,
+      "interestRate": 18.5,
+      "minimumPayment": 5000,
+      "dueDate": "2024-06-15",
+      "category": "creditCards"
+    },
+    {
+      "id": "2",
+      "name": "ICICI Credit Card",
+      "type": "Credit Card",
+      "balance": 120000,
+      "interestRate": 16.9,
+      "minimumPayment": 4000,
+      "dueDate": "2024-06-20",
+      "category": "creditCards"
+    },
+    {
+      "id": "3",
+      "name": "SBI Personal Loan",
+      "type": "Personal Loan",
+      "balance": 200000,
+      "interestRate": 12.5,
+      "minimumPayment": 8000,
+      "dueDate": "2024-06-10",
+      "category": "personalLoans"
+    },
+    {
+      "id": "4",
+      "name": "Axis Personal Loan",
+      "type": "Personal Loan",
+      "balance": 55000,
+      "interestRate": 13.2,
+      "minimumPayment": 2200,
+      "dueDate": "2024-06-25",
+      "category": "personalLoans"
+    },
+    {
+      "id": "5",
+      "name": "HDFC Home Loan",
+      "type": "Home Loan",
+      "balance": 125000,
+      "interestRate": 8.5,
+      "minimumPayment": 12000,
+      "dueDate": "2024-06-05",
+      "category": "homeLoan"
+    },
+    {
+      "id": "6",
+      "name": "Education Loan",
+      "type": "Student Loan",
+      "balance": 85000,
+      "interestRate": 9.0,
+      "minimumPayment": 3000,
+      "dueDate": "2024-06-30",
+      "category": "studentLoan"
+    }
+  ],
+  "repaymentStrategies": [
+    {
+      "id": "1",
+      "name": "Avalanche Method",
+      "description": "Pay off highest interest rate debts first",
+      "totalInterest": 145000,
+      "payoffTime": 28,
+      "monthlyPayment": 25000,
+      "savings": 35000,
+      "timeSaved": 4,
+      "recommendation": "The Avalanche method saves you ₹35,000 in interest and pays off debt 4 months faster.",
+      "payoffData": [850000, 800000, 750000, 700000, 650000, 600000, 550000, 500000, 450000, 400000, 350000, 300000, 250000, 200000, 150000, 100000, 50000, 0]
+    },
+    {
+      "id": "2",
+      "name": "Snowball Method",
+      "description": "Pay off smallest balance debts first",
+      "totalInterest": 165000,
+      "payoffTime": 32,
+      "monthlyPayment": 25000,
+      "savings": 15000,
+      "timeSaved": 0,
+      "recommendation": "The Snowball method provides psychological wins but costs ₹15,000 more in interest.",
+      "payoffData": [850000, 820000, 790000, 760000, 730000, 700000, 670000, 640000, 610000, 580000, 550000, 520000, 490000, 460000, 430000, 400000, 370000, 340000, 310000, 280000, 250000, 220000, 190000, 160000, 130000, 100000, 70000, 40000, 10000, 0]
+    },
+    {
+      "id": "3",
+      "name": "Consolidation Loan",
+      "description": "Combine all debts into one lower interest loan",
+      "totalInterest": 120000,
+      "payoffTime": 30,
+      "monthlyPayment": 22000,
+      "savings": 60000,
+      "timeSaved": 2,
+      "recommendation": "Consolidation reduces monthly payment and saves ₹60,000 in interest.",
+      "payoffData": [850000, 800000, 750000, 700000, 650000, 600000, 550000, 500000, 450000, 400000, 350000, 300000, 250000, 200000, 150000, 100000, 50000, 0]
+    }
+  ],
+  "creditScore": {
+    "score": 720,
+    "category": "Good",
+    "factors": [
+      {
+        "factor": "Payment History",
+        "impact": "Excellent",
+        "contribution": 35.0,
+        "description": "All payments made on time for the last 24 months"
+      },
+      {
+        "factor": "Credit Utilization",
+        "impact": "Good",
+        "contribution": 30.0,
+        "description": "Using 65% of available credit limit"
+      },
+      {
+        "factor": "Length of Credit History",
+        "impact": "Fair",
+        "contribution": 15.0,
+        "description": "Average account age of 4 years"
+      },
+      {
+        "factor": "Credit Mix",
+        "impact": "Good",
+        "contribution": 10.0,
+        "description": "Mix of credit cards, loans, and mortgages"
+      },
+      {
+        "factor": "New Credit",
+        "impact": "Fair",
+        "contribution": 10.0,
+        "description": "2 new credit inquiries in the last 12 months"
+      }
+    ],
+    "trend": [680, 690, 700, 710, 720],
+    "improvementTips": [
+      "Reduce credit card utilization to below 30%",
+      "Continue making all payments on time",
+      "Avoid opening new credit accounts",
+      "Consider requesting credit limit increases"
+    ]
+  },
+  "insights": [
+    {
+      "id": "1",
+      "title": "High Credit Card Utilization",
+      "description": "Your credit cards are using 65% of available limit. Aim for below 30% to improve credit score.",
+      "type": "warning",
+      "priority": "high"
+    },
+    {
+      "id": "2",
+      "title": "Good Payment History",
+      "description": "Excellent payment history is helping maintain your credit score.",
+      "type": "positive",
+      "priority": "medium"
+    },
+    {
+      "id": "3",
+      "title": "Debt Consolidation Opportunity",
+      "description": "Consider consolidating high-interest credit card debt to save on interest.",
+      "type": "positive",
+      "priority": "high"
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "taxHealthScore": {
+    "score": 78,
+    "maxScore": 100,
+    "status": "Good",
+    "statusColor": {
+      "value": 4280391411,
+      "alpha": 255,
+      "red": 34,
+      "green": 197,
+      "blue": 94,
+      "opacity": 1.0
+    },
+    "description": "Your tax health is in good shape. You're taking advantage of most available deductions and have a solid tax strategy in place.",
+    "quickImprovements": [
+      {
+        "title": "Maximize retirement contributions",
+        "isCompleted": false
+      },
+      {
+        "title": "Document business expenses",
+        "isCompleted": true
+      },
+      {
+        "title": "Review charitable donations",
+        "isCompleted": false
+      },
+      {
+        "title": "Optimize investment losses",
+        "isCompleted": true
+      }
+    ]
+  },
+  "taxLiabilityForecast": {
+    "quarterlyTaxes": [
+      {
+        "quarter": "Q1 2024",
+        "dueDate": {
+          "year": 2024,
+          "month": 4,
+          "day": 15,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "millisecond": 0,
+          "microsecond": 0,
+          "isUtc": false,
+          "timeZoneName": "America/New_York",
+          "timeZoneOffset": -14400000
+        },
+        "amount": 12500.0,
+        "percentageChange": -8.5,
+        "isDecrease": true
+      },
+      {
+        "quarter": "Q2 2024",
+        "dueDate": {
+          "year": 2024,
+          "month": 6,
+          "day": 15,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "millisecond": 0,
+          "microsecond": 0,
+          "isUtc": false,
+          "timeZoneName": "America/New_York",
+          "timeZoneOffset": -14400000
+        },
+        "amount": 11800.0,
+        "percentageChange": -5.6,
+        "isDecrease": true
+      },
+      {
+        "quarter": "Q3 2024",
+        "dueDate": {
+          "year": 2024,
+          "month": 9,
+          "day": 15,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "millisecond": 0,
+          "microsecond": 0,
+          "isUtc": false,
+          "timeZoneName": "America/New_York",
+          "timeZoneOffset": -14400000
+        },
+        "amount": 13200.0,
+        "percentageChange": 11.9,
+        "isDecrease": false
+      },
+      {
+        "quarter": "Q4 2024",
+        "dueDate": {
+          "year": 2025,
+          "month": 1,
+          "day": 15,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "millisecond": 0,
+          "microsecond": 0,
+          "isUtc": false,
+          "timeZoneName": "America/New_York",
+          "timeZoneOffset": -14400000
+        },
+        "amount": 14500.0,
+        "percentageChange": 9.8,
+        "isDecrease": false
+      }
+    ],
+    "chartData": [
+      12500.0,
+      11800.0,
+      13200.0,
+      14500.0,
+      13800.0,
+      14200.0,
+      15000.0,
+      14800.0
+    ]
+  },
+  "personalizedDeductions": [
+    {
+      "title": "Home Office Deduction",
+      "description": "Deduct expenses for your home office space used exclusively for business",
+      "estimatedValue": 2800.0,
+      "status": "Available",
+      "statusColor": {
+        "value": 4280391411,
+        "alpha": 255,
+        "red": 34,
+        "green": 197,
+        "blue": 94,
+        "opacity": 1.0
+      },
+      "actionText": "Claim Now",
+      "actionColor": {
+        "value": 4280391411,
+        "alpha": 255,
+        "red": 34,
+        "green": 197,
+        "blue": 94,
+        "opacity": 1.0
+      },
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      }
+    },
+    {
+      "title": "Vehicle Mileage",
+      "description": "Deduct business-related vehicle expenses and mileage",
+      "estimatedValue": 1850.0,
+      "status": "Available",
+      "statusColor": {
+        "value": 4280391411,
+        "alpha": 255,
+        "red": 34,
+        "green": 197,
+        "blue": 94,
+        "opacity": 1.0
+      },
+      "actionText": "Track Miles",
+      "actionColor": {
+        "value": 4280391411,
+        "alpha": 255,
+        "red": 34,
+        "green": 197,
+        "blue": 94,
+        "opacity": 1.0
+      },
+      "icon": {
+        "codePoint": 58667,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      }
+    },
+    {
+      "title": "Professional Development",
+      "description": "Deduct costs for courses, certifications, and professional memberships",
+      "estimatedValue": 1200.0,
+      "status": "Available",
+      "statusColor": {
+        "value": 4280391411,
+        "alpha": 255,
+        "red": 34,
+        "green": 197,
+        "blue": 94,
+        "opacity": 1.0
+      },
+      "actionText": "Add Expenses",
+      "actionColor": {
+        "value": 4280391411,
+        "alpha": 255,
+        "red": 34,
+        "green": 197,
+        "blue": 94,
+        "opacity": 1.0
+      },
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      }
+    },
+    {
+      "title": "Health Savings Account",
+      "description": "Contribute to HSA for tax-free medical expenses",
+      "estimatedValue": 3650.0,
+      "status": "Maxed Out",
+      "statusColor": {
+        "value": 4294198070,
+        "alpha": 255,
+        "red": 239,
+        "green": 68,
+        "blue": 68,
+        "opacity": 1.0
+      },
+      "actionText": "View Details",
+      "actionColor": {
+        "value": 4280391411,
+        "alpha": 255,
+        "red": 34,
+        "green": 197,
+        "blue": 94,
+        "opacity": 1.0
+      },
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      }
+    },
+    {
+      "title": "Charitable Donations",
+      "description": "Deduct qualified charitable contributions",
+      "estimatedValue": 950.0,
+      "status": "Available",
+      "statusColor": {
+        "value": 4280391411,
+        "alpha": 255,
+        "red": 34,
+        "green": 197,
+        "blue": 94,
+        "opacity": 1.0
+      },
+      "actionText": "Add Donations",
+      "actionColor": {
+        "value": 4280391411,
+        "alpha": 255,
+        "red": 34,
+        "green": 197,
+        "blue": 94,
+        "opacity": 1.0
+      },
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      }
+    },
+    {
+      "title": "Investment Losses",
+      "description": "Harvest investment losses to offset gains",
+      "estimatedValue": 2200.0,
+      "status": "In Progress",
+      "statusColor": {
+        "value": 4294951175,
+        "alpha": 255,
+        "red": 245,
+        "green": 158,
+        "blue": 11,
+        "opacity": 1.0
+      },
+      "actionText": "Review Portfolio",
+      "actionColor": {
+        "value": 4294951175,
+        "alpha": 255,
+        "red": 245,
+        "green": 158,
+        "blue": 11,
+        "opacity": 1.0
+      },
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      }
+    }
+  ],
+  "taxOptimizationRecommendations": [
+    {
+      "priority": "High",
+      "category": "Retirement",
+      "title": "Maximize 401(k) Contributions",
+      "description": "Increase your 401(k) contributions to reduce taxable income",
+      "potentialSavings": 2400.0,
+      "actionText": "Update Contributions",
+      "actionColor": {
+        "value": 4280391411,
+        "alpha": 255,
+        "red": 34,
+        "green": 197,
+        "blue": 94,
+        "opacity": 1.0
+      }
+    },
+    {
+      "priority": "Medium",
+      "category": "Business",
+      "title": "Document Business Expenses",
+      "description": "Ensure all business expenses are properly documented",
+      "potentialSavings": 1800.0,
+      "actionText": "Review Expenses",
+      "actionColor": {
+        "value": 4294951175,
+        "alpha": 255,
+        "red": 245,
+        "green": 158,
+        "blue": 11,
+        "opacity": 1.0
+      }
+    },
+    {
+      "priority": "Low",
+      "category": "Charitable",
+      "title": "Increase Charitable Giving",
+      "description": "Consider additional charitable contributions for tax benefits",
+      "potentialSavings": 500.0,
+      "actionText": "Find Charities",
+      "actionColor": {
+        "value": 4280391411,
+        "alpha": 255,
+        "red": 34,
+        "green": 197,
+        "blue": 94,
+        "opacity": 1.0
+      }
+    }
+  ],
+  "taxCalendar": {
+    "upcomingDeadlines": [
+      {
+        "title": "Q1 Estimated Tax Payment",
+        "dueDate": {
+          "year": 2024,
+          "month": 4,
+          "day": 15,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "millisecond": 0,
+          "microsecond": 0,
+          "isUtc": false,
+          "timeZoneName": "America/New_York",
+          "timeZoneOffset": -14400000
+        },
+        "amount": 12500.0,
+        "status": "Upcoming",
+        "daysRemaining": 45
+      },
+      {
+        "title": "Tax Return Filing",
+        "dueDate": {
+          "year": 2024,
+          "month": 4,
+          "day": 15,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "millisecond": 0,
+          "microsecond": 0,
+          "isUtc": false,
+          "timeZoneName": "America/New_York",
+          "timeZoneOffset": -14400000
+        },
+        "amount": 0.0,
+        "status": "Upcoming",
+        "daysRemaining": 45
+      }
+    ],
+    "recentPayments": [
+      {
+        "title": "Q4 2023 Estimated Tax",
+        "paymentDate": {
+          "year": 2024,
+          "month": 1,
+          "day": 15,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "millisecond": 0,
+          "microsecond": 0,
+          "isUtc": false,
+          "timeZoneName": "America/New_York",
+          "timeZoneOffset": -14400000
+        },
+        "amount": 13500.0,
+        "status": "Paid"
+      }
+    ]
+  },
+  "taxSummary": {
+    "totalIncome": 125000.0,
+    "adjustedGrossIncome": 118000.0,
+    "totalDeductions": 7000.0,
+    "taxableIncome": 111000.0,
+    "totalTaxLiability": 52000.0,
+    "totalPayments": 48000.0,
+    "balanceDue": 4000.0,
+    "effectiveTaxRate": 41.6,
+    "marginalTaxRate": 24.0
+  },
+  "metadata": {
+    "generatedAt": "2024-01-15T10:30:00Z",
+    "version": "1.0.0",
+    "description": "Sample JSON for TaxHealthScoreModel and all nested models with realistic tax data",
+    "notes": {
+      "colorValues": "Color values are represented as ARGB integers (e.g., 4280391411 = #22C55E for green)",
+      "iconCodePoints": "Icon code points correspond to Material Icons (e.g., 59530 = Icons.home)",
+      "dateTimeFormat": "DateTime objects include timezone information for accuracy",
+      "primitiveTypes": "All primitive types (int, double, bool, String) are represented as JSON primitives",
+      "nestedStructures": "All nested models are fully expanded until reaching primitive types",
+      "taxMetrics": {
+        "score": "Overall tax health score out of 100",
+        "quarterlyTaxes": "Estimated quarterly tax payments",
+        "deductions": "Available tax deductions and their estimated values",
+        "recommendations": "Tax optimization suggestions with potential savings"
+      }
+    }
+  }
+}

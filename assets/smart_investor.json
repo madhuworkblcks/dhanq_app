@@ -1,0 +1,188 @@
+{
+  "portfolio": {
+    "totalValue": 1250000,
+    "todayGain": 12500,
+    "totalGain": 125000,
+    "gainPercentage": 11.1
+  },
+  "allocation": {
+    "Stocks": 45.0,
+    "Mutual Funds": 30.0,
+    "Bonds": 15.0,
+    "Cash": 10.0
+  },
+  "assets": [
+    {
+      "id": "1",
+      "name": "Reliance Industries",
+      "type": "Stocks",
+      "value": 225000,
+      "percentage": 18.0,
+      "change": 4500,
+      "changePercentage": 2.0,
+      "quantity": 100,
+      "avgPrice": 2200,
+      "currentPrice": 2250
+    },
+    {
+      "id": "2",
+      "name": "TCS",
+      "type": "Stocks",
+      "value": 180000,
+      "percentage": 14.4,
+      "change": 3600,
+      "changePercentage": 2.0,
+      "quantity": 60,
+      "avgPrice": 2900,
+      "currentPrice": 3000
+    },
+    {
+      "id": "3",
+      "name": "HDFC Bank",
+      "type": "Stocks",
+      "value": 150000,
+      "percentage": 12.0,
+      "change": 3000,
+      "changePercentage": 2.0,
+      "quantity": 200,
+      "avgPrice": 735,
+      "currentPrice": 750
+    },
+    {
+      "id": "4",
+      "name": "Axis Bluechip Fund",
+      "type": "Mutual Funds",
+      "value": 200000,
+      "percentage": 16.0,
+      "change": 4000,
+      "changePercentage": 2.0,
+      "quantity": 1000,
+      "avgPrice": 196,
+      "currentPrice": 200
+    },
+    {
+      "id": "5",
+      "name": "ICICI Prudential Balanced Fund",
+      "type": "Mutual Funds",
+      "value": 175000,
+      "percentage": 14.0,
+      "change": 3500,
+      "changePercentage": 2.0,
+      "quantity": 500,
+      "avgPrice": 343,
+      "currentPrice": 350
+    },
+    {
+      "id": "6",
+      "name": "Government Securities",
+      "type": "Bonds",
+      "value": 187500,
+      "percentage": 15.0,
+      "change": 1875,
+      "changePercentage": 1.0,
+      "quantity": 100,
+      "avgPrice": 1850,
+      "currentPrice": 1875
+    },
+    {
+      "id": "7",
+      "name": "Savings Account",
+      "type": "Cash",
+      "value": 125000,
+      "percentage": 10.0,
+      "change": 125,
+      "changePercentage": 0.1,
+      "quantity": 1,
+      "avgPrice": 125000,
+      "currentPrice": 125125
+    }
+  ],
+  "marketSentiment": {
+    "overallSentiment": "Bullish",
+    "confidence": 75,
+    "factors": [
+      {
+        "factor": "Economic Growth",
+        "impact": "Positive",
+        "description": "Strong GDP growth expected at 7.2%"
+      },
+      {
+        "factor": "Interest Rates",
+        "impact": "Neutral",
+        "description": "RBI likely to maintain current rates"
+      },
+      {
+        "factor": "Corporate Earnings",
+        "impact": "Positive",
+        "description": "Q3 earnings beat expectations by 8%"
+      },
+      {
+        "factor": "Global Markets",
+        "impact": "Positive",
+        "description": "US markets showing strength"
+      }
+    ]
+  },
+  "interestRateImpact": {
+    "currentRate": 6.5,
+    "projectedRate": 6.25,
+    "impactOnPortfolio": "Positive",
+    "estimatedGain": 25000,
+    "reasoning": "Lower rates typically boost equity valuations"
+  },
+  "recommendations": [
+    {
+      "id": "1",
+      "title": "Increase Equity Allocation",
+      "description": "Consider increasing equity exposure to 60% given positive market sentiment",
+      "action": "Rebalance Portfolio",
+      "priority": "High",
+      "estimatedBenefit": 35000
+    },
+    {
+      "id": "2",
+      "title": "Add Mid-Cap Exposure",
+      "description": "Include mid-cap funds for better growth potential",
+      "action": "Add New Investment",
+      "priority": "Medium",
+      "estimatedBenefit": 20000
+    },
+    {
+      "id": "3",
+      "title": "Reduce Cash Position",
+      "description": "Move excess cash to short-term debt funds for better returns",
+      "action": "Transfer Funds",
+      "priority": "Low",
+      "estimatedBenefit": 5000
+    }
+  ],
+  "performance": {
+    "daily": 1.0,
+    "weekly": 2.5,
+    "monthly": 8.2,
+    "yearly": 11.1
+  },
+  "insights": [
+    {
+      "id": "1",
+      "title": "Portfolio Diversification",
+      "description": "Your portfolio is well-diversified across asset classes",
+      "type": "positive",
+      "priority": "medium"
+    },
+    {
+      "id": "2",
+      "title": "High Cash Position",
+      "description": "Consider reducing cash allocation for better returns",
+      "type": "warning",
+      "priority": "low"
+    },
+    {
+      "id": "3",
+      "title": "Strong Equity Performance",
+      "description": "Equity holdings showing consistent growth",
+      "type": "positive",
+      "priority": "high"
+    }
+  ]
+}

@@ -1,0 +1,649 @@
+{
+  "integrationServices": [
+    {
+      "name": "Mint",
+      "description": "Budget & expense tracking",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "category": "Budgeting",
+      "status": "disconnected",
+      "lastSync": null,
+      "isConnected": false,
+      "isRecommended": true
+    },
+    {
+      "name": "Stripe",
+      "description": "Payment processing",
+      "icon": {
+        "codePoint": 58667,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "category": "Payments",
+      "status": "disconnected",
+      "lastSync": null,
+      "isConnected": false,
+      "isRecommended": true
+    },
+    {
+      "name": "Chase Bank",
+      "description": "Bank accounts & cards",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "category": "Banking",
+      "status": "connected",
+      "lastSync": "10 mins ago",
+      "isConnected": true,
+      "isRecommended": false
+    },
+    {
+      "name": "Robinhood",
+      "description": "Investment platform",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "category": "Investments",
+      "status": "connected",
+      "lastSync": "1 hour ago",
+      "isConnected": true,
+      "isRecommended": false
+    },
+    {
+      "name": "Bank of America",
+      "description": "Bank accounts & investments",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "category": "Banking",
+      "status": "connected",
+      "lastSync": "3 hours ago",
+      "isConnected": true,
+      "isRecommended": false
+    },
+    {
+      "name": "Wells Fargo",
+      "description": "Bank accounts & cards",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "category": "Banking",
+      "status": "disconnected",
+      "lastSync": null,
+      "isConnected": false,
+      "isRecommended": false
+    },
+    {
+      "name": "Citibank",
+      "description": "Bank accounts & investments",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "category": "Banking",
+      "status": "disconnected",
+      "lastSync": null,
+      "isConnected": false,
+      "isRecommended": false
+    },
+    {
+      "name": "Vanguard",
+      "description": "ETFs & retirement accounts",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "category": "Investments",
+      "status": "disconnected",
+      "lastSync": null,
+      "isConnected": false,
+      "isRecommended": false
+    },
+    {
+      "name": "Fidelity",
+      "description": "Investments & planning",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "category": "Investments",
+      "status": "disconnected",
+      "lastSync": null,
+      "isConnected": false,
+      "isRecommended": false
+    },
+    {
+      "name": "PayPal",
+      "description": "Online payments",
+      "icon": {
+        "codePoint": 58667,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "category": "Payments",
+      "status": "disconnected",
+      "lastSync": null,
+      "isConnected": false,
+      "isRecommended": false
+    },
+    {
+      "name": "Venmo",
+      "description": "Person-to-person payments",
+      "icon": {
+        "codePoint": 58667,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "category": "Payments",
+      "status": "disconnected",
+      "lastSync": null,
+      "isConnected": false,
+      "isRecommended": false
+    },
+    {
+      "name": "YNAB",
+      "description": "You Need A Budget",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "category": "Budgeting",
+      "status": "disconnected",
+      "lastSync": null,
+      "isConnected": false,
+      "isRecommended": true
+    }
+  ],
+  "integrationCategories": [
+    {
+      "name": "Banking",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "services": [
+        {
+          "name": "Chase Bank",
+          "description": "Bank accounts & cards",
+          "icon": {
+            "codePoint": 59530,
+            "fontFamily": "MaterialIcons",
+            "fontPackage": null,
+            "matchTextDirection": false
+          },
+          "category": "Banking",
+          "status": "connected",
+          "lastSync": "10 mins ago",
+          "isConnected": true,
+          "isRecommended": false
+        },
+        {
+          "name": "Bank of America",
+          "description": "Bank accounts & investments",
+          "icon": {
+            "codePoint": 59530,
+            "fontFamily": "MaterialIcons",
+            "fontPackage": null,
+            "matchTextDirection": false
+          },
+          "category": "Banking",
+          "status": "connected",
+          "lastSync": "3 hours ago",
+          "isConnected": true,
+          "isRecommended": false
+        },
+        {
+          "name": "Wells Fargo",
+          "description": "Bank accounts & cards",
+          "icon": {
+            "codePoint": 59530,
+            "fontFamily": "MaterialIcons",
+            "fontPackage": null,
+            "matchTextDirection": false
+          },
+          "category": "Banking",
+          "status": "disconnected",
+          "lastSync": null,
+          "isConnected": false,
+          "isRecommended": false
+        },
+        {
+          "name": "Citibank",
+          "description": "Bank accounts & investments",
+          "icon": {
+            "codePoint": 59530,
+            "fontFamily": "MaterialIcons",
+            "fontPackage": null,
+            "matchTextDirection": false
+          },
+          "category": "Banking",
+          "status": "disconnected",
+          "lastSync": null,
+          "isConnected": false,
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "name": "Investments",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "services": [
+        {
+          "name": "Robinhood",
+          "description": "Investment platform",
+          "icon": {
+            "codePoint": 59530,
+            "fontFamily": "MaterialIcons",
+            "fontPackage": null,
+            "matchTextDirection": false
+          },
+          "category": "Investments",
+          "status": "connected",
+          "lastSync": "1 hour ago",
+          "isConnected": true,
+          "isRecommended": false
+        },
+        {
+          "name": "Vanguard",
+          "description": "ETFs & retirement accounts",
+          "icon": {
+            "codePoint": 59530,
+            "fontFamily": "MaterialIcons",
+            "fontPackage": null,
+            "matchTextDirection": false
+          },
+          "category": "Investments",
+          "status": "disconnected",
+          "lastSync": null,
+          "isConnected": false,
+          "isRecommended": false
+        },
+        {
+          "name": "Fidelity",
+          "description": "Investments & planning",
+          "icon": {
+            "codePoint": 59530,
+            "fontFamily": "MaterialIcons",
+            "fontPackage": null,
+            "matchTextDirection": false
+          },
+          "category": "Investments",
+          "status": "disconnected",
+          "lastSync": null,
+          "isConnected": false,
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "name": "Payments",
+      "icon": {
+        "codePoint": 58667,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "services": [
+        {
+          "name": "Stripe",
+          "description": "Payment processing",
+          "icon": {
+            "codePoint": 58667,
+            "fontFamily": "MaterialIcons",
+            "fontPackage": null,
+            "matchTextDirection": false
+          },
+          "category": "Payments",
+          "status": "disconnected",
+          "lastSync": null,
+          "isConnected": false,
+          "isRecommended": true
+        },
+        {
+          "name": "PayPal",
+          "description": "Online payments",
+          "icon": {
+            "codePoint": 58667,
+            "fontFamily": "MaterialIcons",
+            "fontPackage": null,
+            "matchTextDirection": false
+          },
+          "category": "Payments",
+          "status": "disconnected",
+          "lastSync": null,
+          "isConnected": false,
+          "isRecommended": false
+        },
+        {
+          "name": "Venmo",
+          "description": "Person-to-person payments",
+          "icon": {
+            "codePoint": 58667,
+            "fontFamily": "MaterialIcons",
+            "fontPackage": null,
+            "matchTextDirection": false
+          },
+          "category": "Payments",
+          "status": "disconnected",
+          "lastSync": null,
+          "isConnected": false,
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "name": "Budgeting",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "services": [
+        {
+          "name": "Mint",
+          "description": "Budget & expense tracking",
+          "icon": {
+            "codePoint": 59530,
+            "fontFamily": "MaterialIcons",
+            "fontPackage": null,
+            "matchTextDirection": false
+          },
+          "category": "Budgeting",
+          "status": "disconnected",
+          "lastSync": null,
+          "isConnected": false,
+          "isRecommended": true
+        },
+        {
+          "name": "YNAB",
+          "description": "You Need A Budget",
+          "icon": {
+            "codePoint": 59530,
+            "fontFamily": "MaterialIcons",
+            "fontPackage": null,
+            "matchTextDirection": false
+          },
+          "category": "Budgeting",
+          "status": "disconnected",
+          "lastSync": null,
+          "isConnected": false,
+          "isRecommended": true
+        }
+      ]
+    }
+  ],
+  "dataPermissions": [
+    {
+      "serviceName": "Chase Bank",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "permissions": [
+        {
+          "dataType": "Account info",
+          "isEnabled": true
+        },
+        {
+          "dataType": "Transaction data",
+          "isEnabled": true
+        },
+        {
+          "dataType": "Balance history",
+          "isEnabled": false
+        }
+      ],
+      "lastAccessed": "Today at 2:15 PM"
+    },
+    {
+      "serviceName": "Robinhood",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "permissions": [
+        {
+          "dataType": "Portfolio data",
+          "isEnabled": true
+        },
+        {
+          "dataType": "Trade history",
+          "isEnabled": true
+        },
+        {
+          "dataType": "Performance analytics",
+          "isEnabled": true
+        }
+      ],
+      "lastAccessed": "Today at 11:30 AM"
+    },
+    {
+      "serviceName": "Bank of America",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "permissions": [
+        {
+          "dataType": "Account info",
+          "isEnabled": true
+        },
+        {
+          "dataType": "Transaction data",
+          "isEnabled": true
+        },
+        {
+          "dataType": "Investment data",
+          "isEnabled": true
+        },
+        {
+          "dataType": "Balance history",
+          "isEnabled": false
+        }
+      ],
+      "lastAccessed": "Today at 9:45 AM"
+    }
+  ],
+  "integrationSettings": [
+    {
+      "name": "Auto-sync services",
+      "description": "Automatically sync data from connected services",
+      "isEnabled": true
+    },
+    {
+      "name": "Connection notifications",
+      "description": "Get notified when services connect or disconnect",
+      "isEnabled": true
+    },
+    {
+      "name": "Data encryption",
+      "description": "Encrypt all data shared with third-party services",
+      "isEnabled": true
+    },
+    {
+      "name": "Background sync",
+      "description": "Sync data in the background for better performance",
+      "isEnabled": false
+    },
+    {
+      "name": "Sync frequency",
+      "description": "Set how often data should be synchronized",
+      "isEnabled": true
+    }
+  ],
+  "integrationStatuses": {
+    "connected": {
+      "value": "connected",
+      "description": "Service is successfully connected and syncing data",
+      "color": {
+        "value": 4280391411,
+        "alpha": 255,
+        "red": 34,
+        "green": 197,
+        "blue": 94,
+        "opacity": 1.0
+      }
+    },
+    "disconnected": {
+      "value": "disconnected",
+      "description": "Service is not connected",
+      "color": {
+        "value": 4281545523,
+        "alpha": 255,
+        "red": 156,
+        "green": 163,
+        "blue": 175,
+        "opacity": 1.0
+      }
+    },
+    "pending": {
+      "value": "pending",
+      "description": "Connection is being established",
+      "color": {
+        "value": 4294951175,
+        "alpha": 255,
+        "red": 245,
+        "green": 158,
+        "blue": 11,
+        "opacity": 1.0
+      }
+    },
+    "error": {
+      "value": "error",
+      "description": "Connection failed or encountered an error",
+      "color": {
+        "value": 4294198070,
+        "alpha": 255,
+        "red": 239,
+        "green": 68,
+        "blue": 68,
+        "opacity": 1.0
+      }
+    }
+  },
+  "serviceCategories": {
+    "Banking": {
+      "name": "Banking",
+      "description": "Traditional banking services and accounts",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "supportedDataTypes": [
+        "Account balances",
+        "Transaction history",
+        "Transfer capabilities",
+        "Account statements"
+      ]
+    },
+    "Investments": {
+      "name": "Investments",
+      "description": "Investment platforms and portfolio management",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "supportedDataTypes": [
+        "Portfolio value",
+        "Trade history",
+        "Performance metrics",
+        "Asset allocation"
+      ]
+    },
+    "Payments": {
+      "name": "Payments",
+      "description": "Payment processing and money transfer services",
+      "icon": {
+        "codePoint": 58667,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "supportedDataTypes": [
+        "Payment history",
+        "Transaction fees",
+        "Transfer limits",
+        "Account balances"
+      ]
+    },
+    "Budgeting": {
+      "name": "Budgeting",
+      "description": "Budget tracking and financial planning tools",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "supportedDataTypes": [
+        "Budget categories",
+        "Expense tracking",
+        "Spending insights",
+        "Financial goals"
+      ]
+    }
+  },
+  "metadata": {
+    "generatedAt": "2024-01-15T10:30:00Z",
+    "version": "1.0.0",
+    "description": "Sample JSON for IntegrationServiceModel and all nested models with realistic integration data",
+    "notes": {
+      "colorValues": "Color values are represented as ARGB integers (e.g., 4280391411 = #22C55E for green)",
+      "iconCodePoints": "Icon code points correspond to Material Icons (e.g., 59530 = Icons.home)",
+      "enumValues": "IntegrationStatus enum values: connected, disconnected, pending, error",
+      "primitiveTypes": "All primitive types (int, double, bool, String) are represented as JSON primitives",
+      "nestedStructures": "All nested models are fully expanded until reaching primitive types",
+      "integrationTypes": {
+        "banking": "Traditional banks and credit unions",
+        "investments": "Brokerage and investment platforms",
+        "payments": "Payment processors and money transfer services",
+        "budgeting": "Budget tracking and financial planning tools"
+      }
+    }
+  }
+}

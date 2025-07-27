@@ -1,0 +1,583 @@
+{
+  "goalPlanning": {
+    "financialHealth": {
+      "status": "Good",
+      "totalGoals": 5,
+      "monthlyContribution": 2850,
+      "completionPercentage": 70
+    },
+    "goalsOverview": [
+      {
+        "id": "retirement",
+        "name": "Retirement",
+        "icon": {
+          "codePoint": 59530,
+          "fontFamily": "MaterialIcons",
+          "fontPackage": null,
+          "matchTextDirection": false
+        },
+        "progress": 78,
+        "target": 1200000,
+        "color": {
+          "value": 4281545523,
+          "alpha": 255,
+          "red": 139,
+          "green": 69,
+          "blue": 19,
+          "opacity": 1.0
+        }
+      },
+      {
+        "id": "education",
+        "name": "Child's Education",
+        "icon": {
+          "codePoint": 59504,
+          "fontFamily": "MaterialIcons",
+          "fontPackage": null,
+          "matchTextDirection": false
+        },
+        "progress": 34,
+        "target": 85000,
+        "color": {
+          "value": 4281545523,
+          "alpha": 255,
+          "red": 30,
+          "green": 58,
+          "blue": 138,
+          "opacity": 1.0
+        }
+      },
+      {
+        "id": "travel",
+        "name": "Europe Trip",
+        "icon": {
+          "codePoint": 58729,
+          "fontFamily": "MaterialIcons",
+          "fontPackage": null,
+          "matchTextDirection": false
+        },
+        "progress": 95,
+        "target": 15000,
+        "color": {
+          "value": 4281545523,
+          "alpha": 255,
+          "red": 34,
+          "green": 139,
+          "blue": 34,
+          "opacity": 1.0
+        }
+      },
+      {
+        "id": "home",
+        "name": "Home Purchase",
+        "icon": {
+          "codePoint": 59530,
+          "fontFamily": "MaterialIcons",
+          "fontPackage": null,
+          "matchTextDirection": false
+        },
+        "progress": 50,
+        "target": 5000000,
+        "color": {
+          "value": 4281545523,
+          "alpha": 255,
+          "red": 220,
+          "green": 38,
+          "blue": 127,
+          "opacity": 1.0
+        }
+      },
+      {
+        "id": "emergency",
+        "name": "Emergency Fund",
+        "icon": {
+          "codePoint": 59530,
+          "fontFamily": "MaterialIcons",
+          "fontPackage": null,
+          "matchTextDirection": false
+        },
+        "progress": 45000,
+        "target": 60000,
+        "color": {
+          "value": 4281545523,
+          "alpha": 255,
+          "red": 245,
+          "green": 158,
+          "blue": 11,
+          "opacity": 1.0
+        }
+      }
+    ],
+    "goalDetails": [
+      {
+        "id": "retirement",
+        "name": "Retirement",
+        "currentSavings": 780000,
+        "monthlyContribution": 1500,
+        "targetDate": 2040,
+        "probabilityOfSuccess": 85,
+        "projectedGrowth": [
+          {
+            "year": 2023,
+            "conservative": 780000,
+            "expected": 780000,
+            "optimistic": 780000
+          },
+          {
+            "year": 2024,
+            "conservative": 811200,
+            "expected": 834600,
+            "optimistic": 858000
+          },
+          {
+            "year": 2025,
+            "conservative": 843648,
+            "expected": 893022,
+            "optimistic": 943800
+          },
+          {
+            "year": 2026,
+            "conservative": 877394,
+            "expected": 955533,
+            "optimistic": 1038180
+          },
+          {
+            "year": 2027,
+            "conservative": 912490,
+            "expected": 1022420,
+            "optimistic": 1141998
+          },
+          {
+            "year": 2028,
+            "conservative": 948990,
+            "expected": 1093989,
+            "optimistic": 1256198
+          },
+          {
+            "year": 2029,
+            "conservative": 986950,
+            "expected": 1170568,
+            "optimistic": 1381818
+          },
+          {
+            "year": 2030,
+            "conservative": 1026428,
+            "expected": 1252508,
+            "optimistic": 1520000
+          },
+          {
+            "year": 2031,
+            "conservative": 1067485,
+            "expected": 1340184,
+            "optimistic": 1672000
+          },
+          {
+            "year": 2032,
+            "conservative": 1110184,
+            "expected": 1433997,
+            "optimistic": 1839200
+          },
+          {
+            "year": 2033,
+            "conservative": 1154591,
+            "expected": 1534517,
+            "optimistic": 2023120
+          },
+          {
+            "year": 2034,
+            "conservative": 1200775,
+            "expected": 1641933,
+            "optimistic": 2225432
+          },
+          {
+            "year": 2035,
+            "conservative": 1248806,
+            "expected": 1756848,
+            "optimistic": 2447975
+          },
+          {
+            "year": 2036,
+            "conservative": 1298758,
+            "expected": 1879907,
+            "optimistic": 2692773
+          },
+          {
+            "year": 2037,
+            "conservative": 1350708,
+            "expected": 2011801,
+            "optimistic": 2962050
+          },
+          {
+            "year": 2038,
+            "conservative": 1404736,
+            "expected": 2153267,
+            "optimistic": 3258255
+          },
+          {
+            "year": 2039,
+            "conservative": 1460926,
+            "expected": 2305096,
+            "optimistic": 3584081
+          },
+          {
+            "year": 2040,
+            "conservative": 1519363,
+            "expected": 2468153,
+            "optimistic": 3942489
+          }
+        ]
+      },
+      {
+        "id": "education",
+        "name": "Child's Education",
+        "currentSavings": 34000,
+        "monthlyContribution": 800,
+        "targetDate": 2030,
+        "probabilityOfSuccess": 75,
+        "projectedGrowth": [
+          {
+            "year": 2023,
+            "conservative": 34000,
+            "expected": 34000,
+            "optimistic": 34000
+          },
+          {
+            "year": 2024,
+            "conservative": 35020,
+            "expected": 36040,
+            "optimistic": 37060
+          },
+          {
+            "year": 2025,
+            "conservative": 36071,
+            "expected": 38202,
+            "optimistic": 40395
+          },
+          {
+            "year": 2026,
+            "conservative": 37153,
+            "expected": 40494,
+            "optimistic": 44031
+          },
+          {
+            "year": 2027,
+            "conservative": 38268,
+            "expected": 42924,
+            "optimistic": 47994
+          },
+          {
+            "year": 2028,
+            "conservative": 39416,
+            "expected": 45499,
+            "optimistic": 52313
+          },
+          {
+            "year": 2029,
+            "conservative": 40598,
+            "expected": 48229,
+            "optimistic": 57021
+          },
+          {
+            "year": 2030,
+            "conservative": 41816,
+            "expected": 51123,
+            "optimistic": 62153
+          }
+        ]
+      },
+      {
+        "id": "travel",
+        "name": "Europe Trip",
+        "currentSavings": 10500,
+        "monthlyContribution": 550,
+        "targetDate": 2025,
+        "probabilityOfSuccess": 90,
+        "projectedGrowth": [
+          {
+            "year": 2023,
+            "conservative": 10500,
+            "expected": 10500,
+            "optimistic": 10500
+          },
+          {
+            "year": 2024,
+            "conservative": 10710,
+            "expected": 11025,
+            "optimistic": 11340
+          },
+          {
+            "year": 2025,
+            "conservative": 10924,
+            "expected": 11576,
+            "optimistic": 12247
+          }
+        ]
+      },
+      {
+        "id": "home",
+        "name": "Home Purchase",
+        "currentSavings": 250000,
+        "monthlyContribution": 2000,
+        "targetDate": 2035,
+        "probabilityOfSuccess": 60,
+        "projectedGrowth": [
+          {
+            "year": 2023,
+            "conservative": 250000,
+            "expected": 250000,
+            "optimistic": 250000
+          },
+          {
+            "year": 2024,
+            "conservative": 260000,
+            "expected": 267500,
+            "optimistic": 275000
+          },
+          {
+            "year": 2025,
+            "conservative": 270400,
+            "expected": 286225,
+            "optimistic": 302500
+          },
+          {
+            "year": 2026,
+            "conservative": 281216,
+            "expected": 306261,
+            "optimistic": 332750
+          },
+          {
+            "year": 2027,
+            "conservative": 292465,
+            "expected": 327699,
+            "optimistic": 366025
+          },
+          {
+            "year": 2028,
+            "conservative": 304163,
+            "expected": 350638,
+            "optimistic": 402628
+          },
+          {
+            "year": 2029,
+            "conservative": 316330,
+            "expected": 375183,
+            "optimistic": 442890
+          },
+          {
+            "year": 2030,
+            "conservative": 328983,
+            "expected": 401446,
+            "optimistic": 487179
+          },
+          {
+            "year": 2031,
+            "conservative": 342142,
+            "expected": 429547,
+            "optimistic": 535897
+          },
+          {
+            "year": 2032,
+            "conservative": 355828,
+            "expected": 459615,
+            "optimistic": 589487
+          },
+          {
+            "year": 2033,
+            "conservative": 370061,
+            "expected": 491788,
+            "optimistic": 648436
+          },
+          {
+            "year": 2034,
+            "conservative": 384863,
+            "expected": 526213,
+            "optimistic": 713279
+          },
+          {
+            "year": 2035,
+            "conservative": 400258,
+            "expected": 563048,
+            "optimistic": 784607
+          }
+        ]
+      },
+      {
+        "id": "emergency",
+        "name": "Emergency Fund",
+        "currentSavings": 45000,
+        "monthlyContribution": 300,
+        "targetDate": 2026,
+        "probabilityOfSuccess": 95,
+        "projectedGrowth": [
+          {
+            "year": 2023,
+            "conservative": 45000,
+            "expected": 45000,
+            "optimistic": 45000
+          },
+          {
+            "year": 2024,
+            "conservative": 46350,
+            "expected": 47700,
+            "optimistic": 49050
+          },
+          {
+            "year": 2025,
+            "conservative": 47741,
+            "expected": 50562,
+            "optimistic": 53364
+          },
+          {
+            "year": 2026,
+            "conservative": 49173,
+            "expected": 53596,
+            "optimistic": 58167
+          }
+        ]
+      }
+    ],
+    "recommendations": [
+      {
+        "id": "1",
+        "description": "Increase monthly contribution by ₹200 to improve success rate by 7%",
+        "improvementPercentage": 7
+      },
+      {
+        "id": "2",
+        "description": "Adjust retirement age by +2 years to improve success rate by 12%",
+        "improvementPercentage": 12
+      },
+      {
+        "id": "3",
+        "description": "Consider increasing education fund contribution by ₹300 monthly",
+        "improvementPercentage": 8
+      },
+      {
+        "id": "4",
+        "description": "Delay home purchase by 1 year to improve down payment savings",
+        "improvementPercentage": 15
+      },
+      {
+        "id": "5",
+        "description": "Optimize investment allocation for better returns",
+        "improvementPercentage": 5
+      }
+    ]
+  },
+  "goalTypes": {
+    "retirement": {
+      "name": "Retirement",
+      "description": "Long-term financial security for retirement years",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "typicalTimeframe": "15-30 years",
+      "riskLevel": "Medium",
+      "recommendedContribution": "10-15% of income"
+    },
+    "education": {
+      "name": "Education",
+      "description": "Funding for children's education expenses",
+      "icon": {
+        "codePoint": 59504,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "typicalTimeframe": "5-18 years",
+      "riskLevel": "Low-Medium",
+      "recommendedContribution": "5-10% of income"
+    },
+    "travel": {
+      "name": "Travel",
+      "description": "Vacation and travel experiences",
+      "icon": {
+        "codePoint": 58729,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "typicalTimeframe": "1-5 years",
+      "riskLevel": "Low",
+      "recommendedContribution": "2-5% of income"
+    },
+    "home": {
+      "name": "Home Purchase",
+      "description": "Down payment and home buying expenses",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "typicalTimeframe": "5-15 years",
+      "riskLevel": "Medium",
+      "recommendedContribution": "10-20% of income"
+    }
+  },
+  "goalMetrics": {
+    "totalGoals": 5,
+    "activeGoals": 5,
+    "completedGoals": 0,
+    "totalTargetAmount": 6250000,
+    "totalCurrentSavings": 1129000,
+    "overallProgress": 18.1,
+    "monthlyContributionTotal": 2850,
+    "averageSuccessProbability": 81
+  },
+  "goalInsights": [
+    {
+      "id": "1",
+      "title": "Retirement on Track",
+      "description": "Your retirement savings are performing well with 85% success probability",
+      "type": "positive",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      }
+    },
+    {
+      "id": "2",
+      "title": "Education Fund Needs Attention",
+      "description": "Consider increasing monthly contribution to meet education goals",
+      "type": "warning",
+      "icon": {
+        "codePoint": 59504,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      }
+    },
+    {
+      "id": "3",
+      "title": "Travel Goal Almost Complete",
+      "description": "Europe trip savings are 70% complete - great progress!",
+      "type": "positive",
+      "icon": {
+        "codePoint": 58729,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      }
+    }
+  ],
+  "metadata": {
+    "generatedAt": "2024-01-15T10:30:00Z",
+    "version": "1.0.0",
+    "description": "Sample JSON for GoalPlanningModel with comprehensive financial goal planning data",
+    "notes": {
+      "colorValues": "Color values are represented as ARGB integers (e.g., 4281545523 = #8B4513 for brown)",
+      "iconCodePoints": "Icon code points correspond to Material Icons (e.g., 59530 = Icons.home)",
+      "goalTypes": "Supported goal types: retirement, education, travel, home, emergency",
+      "projectedGrowth": "Growth projections include conservative, expected, and optimistic scenarios",
+      "financialMetrics": "All monetary values are in Indian Rupees (₹)",
+      "timeframes": "Target dates are specified as years (e.g., 2040)",
+      "successProbability": "Probability values range from 0-100 representing percentage chance of success"
+    }
+  }
+} 

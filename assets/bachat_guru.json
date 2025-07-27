@@ -1,0 +1,650 @@
+{
+  "savingsSummary": {
+    "totalSavings": 4500.0,
+    "progress": 3,
+    "goal": 10,
+    "status": "Growing steadily!",
+    "streakCount": 3
+  },
+  "savingsTips": [
+    {
+      "title": "Small Daily Savings",
+      "description": "Save ₹20 from your daily tea budget",
+      "color": {
+        "value": 4294967244,
+        "alpha": 255,
+        "red": 255,
+        "green": 249,
+        "blue": 196,
+        "opacity": 1.0
+      }
+    },
+    {
+      "title": "Weekly Saving Rule",
+      "description": "Try the 50-30-20 rule for your farm income",
+      "color": {
+        "value": 4294967274,
+        "alpha": 255,
+        "red": 255,
+        "green": 235,
+        "blue": 238,
+        "opacity": 1.0
+      }
+    },
+    {
+      "title": "Bulk Purchase Strategy",
+      "description": "Buy groceries in bulk to save 15-20% monthly",
+      "color": {
+        "value": 4294967280,
+        "alpha": 255,
+        "red": 255,
+        "green": 243,
+        "blue": 224,
+        "opacity": 1.0
+      }
+    },
+    {
+      "title": "Energy Conservation",
+      "description": "Switch to LED bulbs and save ₹200 monthly on electricity",
+      "color": {
+        "value": 4294967264,
+        "alpha": 255,
+        "red": 255,
+        "green": 240,
+        "blue": 245,
+        "opacity": 1.0
+      }
+    },
+    {
+      "title": "Transportation Savings",
+      "description": "Use public transport twice a week to save ₹300 monthly",
+      "color": {
+        "value": 4294967270,
+        "alpha": 255,
+        "red": 255,
+        "green": 237,
+        "blue": 242,
+        "opacity": 1.0
+      }
+    },
+    {
+      "title": "Digital Banking",
+      "description": "Use UPI payments to avoid ATM charges and save ₹50 monthly",
+      "color": {
+        "value": 4294967268,
+        "alpha": 255,
+        "red": 255,
+        "green": 238,
+        "blue": 244,
+        "opacity": 1.0
+      }
+    }
+  ],
+  "savingsOptions": [
+    {
+      "name": "Post Office Monthly Scheme",
+      "minAmount": "₹100",
+      "returns": "7.1%",
+      "period": "1-5 yrs",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "color": {
+        "value": 4294967274,
+        "alpha": 255,
+        "red": 255,
+        "green": 235,
+        "blue": 238,
+        "opacity": 1.0
+      }
+    },
+    {
+      "name": "Co-op Bank Recurring Deposit",
+      "minAmount": "₹50",
+      "returns": "6.5%",
+      "period": "6-36 mos",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "color": {
+        "value": 4294967280,
+        "alpha": 255,
+        "red": 255,
+        "green": 243,
+        "blue": 224,
+        "opacity": 1.0
+      }
+    },
+    {
+      "name": "Sukanya Samriddhi Yojana",
+      "minAmount": "₹250",
+      "returns": "8.0%",
+      "period": "21 yrs",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "color": {
+        "value": 4294967264,
+        "alpha": 255,
+        "red": 255,
+        "green": 240,
+        "blue": 245,
+        "opacity": 1.0
+      }
+    },
+    {
+      "name": "Public Provident Fund",
+      "minAmount": "₹500",
+      "returns": "7.1%",
+      "period": "15 yrs",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "color": {
+        "value": 4294967270,
+        "alpha": 255,
+        "red": 255,
+        "green": 237,
+        "blue": 242,
+        "opacity": 1.0
+      }
+    },
+    {
+      "name": "National Savings Certificate",
+      "minAmount": "₹1000",
+      "returns": "7.0%",
+      "period": "5 yrs",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "color": {
+        "value": 4294967268,
+        "alpha": 255,
+        "red": 255,
+        "green": 238,
+        "blue": 244,
+        "opacity": 1.0
+      }
+    },
+    {
+      "name": "Kisan Vikas Patra",
+      "minAmount": "₹1000",
+      "returns": "7.5%",
+      "period": "124 months",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "color": {
+        "value": 4294967266,
+        "alpha": 255,
+        "red": 255,
+        "green": 239,
+        "blue": 243,
+        "opacity": 1.0
+      }
+    }
+  ],
+  "communityChallenges": [
+    {
+      "title": "Bicycle Challenge",
+      "description": "Save enough for a new bicycle in 3 months",
+      "targetAmount": 8000.0,
+      "savedAmount": 3200.0,
+      "months": 3,
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "color": {
+        "value": 4294967274,
+        "alpha": 255,
+        "red": 255,
+        "green": 235,
+        "blue": 238,
+        "opacity": 1.0
+      }
+    },
+    {
+      "title": "Education Fund",
+      "description": "Save for children's education fees",
+      "targetAmount": 12000.0,
+      "savedAmount": 4000.0,
+      "months": 6,
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "color": {
+        "value": 4294967244,
+        "alpha": 255,
+        "red": 255,
+        "green": 249,
+        "blue": 196,
+        "opacity": 1.0
+      }
+    },
+    {
+      "title": "Monsoon Emergency",
+      "description": "Be prepared for the rainy season",
+      "targetAmount": 5000.0,
+      "savedAmount": 1000.0,
+      "months": 2,
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "color": {
+        "value": 4294967274,
+        "alpha": 255,
+        "red": 255,
+        "green": 235,
+        "blue": 238,
+        "opacity": 1.0
+      }
+    },
+    {
+      "title": "Home Renovation",
+      "description": "Save for house repairs and improvements",
+      "targetAmount": 25000.0,
+      "savedAmount": 8000.0,
+      "months": 12,
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "color": {
+        "value": 4294967280,
+        "alpha": 255,
+        "red": 255,
+        "green": 243,
+        "blue": 224,
+        "opacity": 1.0
+      }
+    },
+    {
+      "title": "Wedding Fund",
+      "description": "Save for family wedding expenses",
+      "targetAmount": 50000.0,
+      "savedAmount": 15000.0,
+      "months": 24,
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "color": {
+        "value": 4294967264,
+        "alpha": 255,
+        "red": 255,
+        "green": 240,
+        "blue": 245,
+        "opacity": 1.0
+      }
+    },
+    {
+      "title": "Medical Emergency",
+      "description": "Build emergency fund for healthcare",
+      "targetAmount": 15000.0,
+      "savedAmount": 6000.0,
+      "months": 8,
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "color": {
+        "value": 4294967270,
+        "alpha": 255,
+        "red": 255,
+        "green": 237,
+        "blue": 242,
+        "opacity": 1.0
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "title": "First Saver",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "color": {
+        "value": 4281545523,
+        "alpha": 255,
+        "red": 139,
+        "green": 69,
+        "blue": 19,
+        "opacity": 1.0
+      }
+    },
+    {
+      "title": "Weekly Streak",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "color": {
+        "value": 4281545523,
+        "alpha": 255,
+        "red": 181,
+        "green": 166,
+        "blue": 66,
+        "opacity": 1.0
+      }
+    },
+    {
+      "title": "Goal Achiever",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "color": {
+        "value": 4281545523,
+        "alpha": 255,
+        "red": 139,
+        "green": 69,
+        "blue": 19,
+        "opacity": 1.0
+      }
+    },
+    {
+      "title": "Savings Master",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "color": {
+        "value": 4281545523,
+        "alpha": 255,
+        "red": 181,
+        "green": 166,
+        "blue": 66,
+        "opacity": 1.0
+      }
+    },
+    {
+      "title": "Community Leader",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "color": {
+        "value": 4281545523,
+        "alpha": 255,
+        "red": 139,
+        "green": 69,
+        "blue": 19,
+        "opacity": 1.0
+      }
+    },
+    {
+      "title": "Financial Guru",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "color": {
+        "value": 4281545523,
+        "alpha": 255,
+        "red": 181,
+        "green": 166,
+        "blue": 66,
+        "opacity": 1.0
+      }
+    }
+  ],
+  "savingsAnalytics": {
+    "monthlySavings": [
+      {
+        "month": "January",
+        "amount": 2800.0,
+        "goal": 3000.0,
+        "achieved": 93.3
+      },
+      {
+        "month": "February",
+        "amount": 3200.0,
+        "goal": 3000.0,
+        "achieved": 106.7
+      },
+      {
+        "month": "March",
+        "amount": 2900.0,
+        "goal": 3000.0,
+        "achieved": 96.7
+      },
+      {
+        "month": "April",
+        "amount": 3500.0,
+        "goal": 3000.0,
+        "achieved": 116.7
+      },
+      {
+        "month": "May",
+        "amount": 3100.0,
+        "goal": 3000.0,
+        "achieved": 103.3
+      },
+      {
+        "month": "June",
+        "amount": 4500.0,
+        "goal": 3000.0,
+        "achieved": 150.0
+      }
+    ],
+    "savingsByCategory": [
+      {
+        "category": "Daily Savings",
+        "amount": 1800.0,
+        "percentage": 40.0
+      },
+      {
+        "category": "Weekly Deposits",
+        "amount": 1500.0,
+        "percentage": 33.3
+      },
+      {
+        "category": "Extra Income",
+        "amount": 800.0,
+        "percentage": 17.8
+      },
+      {
+        "category": "Cut Expenses",
+        "amount": 400.0,
+        "percentage": 8.9
+      }
+    ],
+    "savingsGoals": [
+      {
+        "goal": "Emergency Fund",
+        "target": 10000.0,
+        "current": 4500.0,
+        "percentage": 45.0
+      },
+      {
+        "goal": "Education Fund",
+        "target": 25000.0,
+        "current": 8000.0,
+        "percentage": 32.0
+      },
+      {
+        "goal": "Home Renovation",
+        "target": 50000.0,
+        "current": 12000.0,
+        "percentage": 24.0
+      }
+    ]
+  },
+  "savingsInsights": [
+    {
+      "id": "1",
+      "title": "Savings Streak",
+      "description": "You've maintained a 3-day savings streak! Keep it up.",
+      "type": "positive",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      }
+    },
+    {
+      "id": "2",
+      "title": "Goal Progress",
+      "description": "You're 45% towards your emergency fund goal.",
+      "type": "info",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      }
+    },
+    {
+      "id": "3",
+      "title": "Savings Opportunity",
+      "description": "You could save ₹500 more by reducing dining out.",
+      "type": "suggestion",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      }
+    },
+    {
+      "id": "4",
+      "title": "Investment Alert",
+      "description": "Consider investing your savings for better returns.",
+      "type": "recommendation",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      }
+    }
+  ],
+  "savingsCalculator": {
+    "monthlyIncome": 15000.0,
+    "monthlyExpenses": 10000.0,
+    "currentSavings": 4500.0,
+    "monthlySavingsGoal": 3000.0,
+    "projectedSavings": [
+      {
+        "month": 1,
+        "amount": 7500.0,
+        "interest": 45.0
+      },
+      {
+        "month": 3,
+        "amount": 13500.0,
+        "interest": 135.0
+      },
+      {
+        "month": 6,
+        "amount": 22500.0,
+        "interest": 270.0
+      },
+      {
+        "month": 12,
+        "amount": 40500.0,
+        "interest": 540.0
+      }
+    ]
+  },
+  "communityFeatures": {
+    "totalMembers": 1250,
+    "activeChallenges": 8,
+    "totalSavings": 4500000.0,
+    "averageSavings": 3600.0,
+    "topSavers": [
+      {
+        "name": "Ramesh Kumar",
+        "savings": 8500.0,
+        "rank": 1
+      },
+      {
+        "name": "Lakshmi Devi",
+        "savings": 7200.0,
+        "rank": 2
+      },
+      {
+        "name": "Suresh Patel",
+        "savings": 6800.0,
+        "rank": 3
+      }
+    ],
+    "communityGoals": [
+      {
+        "goal": "Village Development Fund",
+        "target": 100000.0,
+        "current": 45000.0,
+        "participants": 45
+      },
+      {
+        "goal": "School Infrastructure",
+        "target": 75000.0,
+        "current": 32000.0,
+        "participants": 38
+      }
+    ]
+  },
+  "metadata": {
+    "generatedAt": "2024-01-15T10:30:00Z",
+    "version": "1.0.0",
+    "description": "Sample JSON for SavingsSummaryModel and all related Bachat Guru models with realistic savings data",
+    "notes": {
+      "dateFormat": "Dates are in ISO format (YYYY-MM-DD) for easy parsing",
+      "iconCodePoints": "Icon code points correspond to Material Icons (e.g., 59530 = Icons.mail)",
+      "monetaryValues": "All monetary values are in Indian Rupees (₹)",
+      "percentages": "Percentage values are represented as decimals (e.g., 7.1 = 7.1%)",
+      "statusValues": "Status values: Growing steadily!, On track, Behind schedule, Exceeding goals",
+      "categories": "Savings categories: Daily Savings, Weekly Deposits, Extra Income, Cut Expenses",
+      "goalTypes": "Goal types: Emergency Fund, Education Fund, Home Renovation, Wedding Fund, Medical Emergency",
+      "achievementTypes": "Achievement types: First Saver, Weekly Streak, Goal Achiever, Savings Master, Community Leader, Financial Guru",
+      "savingsInstruments": "Savings instruments: Post Office Schemes, Bank Deposits, Government Schemes, Mutual Funds"
+    }
+  }
+} 

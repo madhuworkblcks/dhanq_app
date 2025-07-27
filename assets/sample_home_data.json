@@ -1,0 +1,156 @@
+{
+  "portfolio": {
+    "totalValue": 1250000,
+    "todayGain": 12500,
+    "totalGain": 150000,
+    "gainPercentage": 13.6
+  },
+  "activities": [
+    {
+      "id": "1",
+      "title": "Stock Investment",
+      "description": "Purchased TechCorp shares",
+      "amount": 21000,
+      "timestamp": "2024-01-15T10:30:00Z",
+      "type": "investment"
+    },
+    {
+      "id": "2",
+      "title": "Mutual Fund Dividend",
+      "description": "Dividend received from Large Cap Fund",
+      "amount": 1500,
+      "timestamp": "2024-01-14T15:45:00Z",
+      "type": "dividend"
+    },
+    {
+      "id": "3",
+      "title": "Withdrawal",
+      "description": "ATM withdrawal",
+      "amount": -5000,
+      "timestamp": "2024-01-13T09:20:00Z",
+      "type": "withdrawal"
+    },
+    {
+      "id": "4",
+      "title": "Fund Transfer",
+      "description": "Transferred to savings account",
+      "amount": -10000,
+      "timestamp": "2024-01-12T14:15:00Z",
+      "type": "transfer"
+    }
+  ],
+  "financialServices": {
+    "urban": [
+      {
+        "id": "asset_management",
+        "name": "Asset Management",
+        "description": "Comprehensive asset tracking and management",
+        "icon": "business",
+        "color": "blue",
+        "category": "urban"
+      },
+      {
+        "id": "smart_investor",
+        "name": "Smart Investor Agent",
+        "description": "AI-powered investment recommendations",
+        "icon": "account_balance",
+        "color": "green",
+        "category": "urban"
+      },
+      {
+        "id": "debt_doctor",
+        "name": "Debt-Doctor",
+        "description": "Debt management and optimization",
+        "icon": "medical_services",
+        "color": "red",
+        "category": "urban"
+      },
+      {
+        "id": "tax_whisperer",
+        "name": "Tax Whisperer",
+        "description": "Tax planning and optimization",
+        "icon": "description",
+        "color": "orange",
+        "category": "urban"
+      },
+      {
+        "id": "financial_health",
+        "name": "Financial Health Score",
+        "description": "Track your financial wellness",
+        "icon": "favorite",
+        "color": "pink",
+        "category": "urban"
+      },
+      {
+        "id": "fintech_integration",
+        "name": "Fintech Connect",
+        "description": "Connect with other financial services",
+        "icon": "api",
+        "color": "purple",
+        "category": "urban"
+      }
+    ],
+    "rural": [
+      {
+        "id": "kisaan_saathi",
+        "name": "Kisaan Saathi",
+        "description": "Agricultural financial assistance",
+        "icon": "agriculture",
+        "color": "green",
+        "category": "rural"
+      },
+      {
+        "id": "vyapar_margdarshak",
+        "name": "Vyapar Margdarshak",
+        "description": "Business guidance and support",
+        "icon": "store",
+        "color": "blue",
+        "category": "rural"
+      },
+      {
+        "id": "bachat_guru",
+        "name": "Bachat Guru",
+        "description": "Savings optimization expert",
+        "icon": "savings",
+        "color": "teal",
+        "category": "rural"
+      },
+      {
+        "id": "voice_assistant",
+        "name": "Voice Assistant",
+        "description": "Voice-controlled financial tracking",
+        "icon": "mic",
+        "color": "indigo",
+        "category": "rural"
+      },
+      {
+        "id": "financial_health_rural",
+        "name": "Financial Health Score",
+        "description": "Track your financial wellness",
+        "icon": "favorite",
+        "color": "pink",
+        "category": "rural"
+      },
+      {
+        "id": "fintech_integration_rural",
+        "name": "Fintech Connect",
+        "description": "Connect with other financial services",
+        "icon": "api",
+        "color": "brown",
+        "category": "rural"
+      }
+    ]
+  },
+  "portfolioBreakdown": {
+    "Stocks": 40.0,
+    "Mutual Funds": 30.0,
+    "Fixed Deposits": 20.0,
+    "Cash": 10.0
+  },
+  "userProfile": {
+    "name": "John Doe",
+    "mobile": "9008358358",
+    "email": "john.doe@example.com",
+    "onboardingCompleted": false
+  }
+} 

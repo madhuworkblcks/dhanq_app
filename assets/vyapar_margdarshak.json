@@ -1,0 +1,541 @@
+{
+  "businessSummary": {
+    "sales": 5200.0,
+    "expenses": 1800.0,
+    "profit": 3400.0,
+    "date": "2024-01-15"
+  },
+  "monthlyProfit": {
+    "profitData": [
+      {
+        "month": "Jan",
+        "profit": 2800.0,
+        "isCurrentMonth": false
+      },
+      {
+        "month": "Feb",
+        "profit": 3200.0,
+        "isCurrentMonth": false
+      },
+      {
+        "month": "Mar",
+        "profit": 2900.0,
+        "isCurrentMonth": false
+      },
+      {
+        "month": "Apr",
+        "profit": 3500.0,
+        "isCurrentMonth": false
+      },
+      {
+        "month": "May",
+        "profit": 3100.0,
+        "isCurrentMonth": false
+      },
+      {
+        "month": "Jun",
+        "profit": 4500.0,
+        "isCurrentMonth": true
+      },
+      {
+        "month": "Jul",
+        "profit": 4200.0,
+        "isCurrentMonth": false
+      },
+      {
+        "month": "Aug",
+        "profit": 4800.0,
+        "isCurrentMonth": false
+      },
+      {
+        "month": "Sep",
+        "profit": 5100.0,
+        "isCurrentMonth": false
+      },
+      {
+        "month": "Oct",
+        "profit": 4700.0,
+        "isCurrentMonth": false
+      },
+      {
+        "month": "Nov",
+        "profit": 5300.0,
+        "isCurrentMonth": false
+      },
+      {
+        "month": "Dec",
+        "profit": 5800.0,
+        "isCurrentMonth": false
+      }
+    ],
+    "totalProfit": 52000.0
+  },
+  "quickActions": [
+    {
+      "title": "Record Sale",
+      "icon": {
+        "codePoint": 58729,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "action": "record_sale"
+    },
+    {
+      "title": "Record Expense",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "action": "record_expense"
+    },
+    {
+      "title": "Add Inventory",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "action": "add_inventory"
+    },
+    {
+      "title": "View Reports",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "action": "view_reports"
+    },
+    {
+      "title": "Check Cash Flow",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "action": "check_cash_flow"
+    },
+    {
+      "title": "Apply for Loan",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      },
+      "action": "apply_loan"
+    }
+  ],
+  "businessGrowth": {
+    "metrics": [
+      {
+        "title": "Sales",
+        "percentage": 12.0,
+        "comparison": "vs Last Month",
+        "icon": {
+          "codePoint": 59530,
+          "fontFamily": "MaterialIcons",
+          "fontPackage": null,
+          "matchTextDirection": false
+        }
+      },
+      {
+        "title": "Profit",
+        "percentage": 8.0,
+        "comparison": "vs Last Month",
+        "icon": {
+          "codePoint": 59530,
+          "fontFamily": "MaterialIcons",
+          "fontPackage": null,
+          "matchTextDirection": false
+        }
+      },
+      {
+        "title": "Expenses",
+        "percentage": -3.0,
+        "comparison": "vs Last Month",
+        "icon": {
+          "codePoint": 59530,
+          "fontFamily": "MaterialIcons",
+          "fontPackage": null,
+          "matchTextDirection": false
+        }
+      },
+      {
+        "title": "Customer Growth",
+        "percentage": 15.0,
+        "comparison": "vs Last Month",
+        "icon": {
+          "codePoint": 59530,
+          "fontFamily": "MaterialIcons",
+          "fontPackage": null,
+          "matchTextDirection": false
+        }
+      },
+      {
+        "title": "Inventory Turnover",
+        "percentage": 5.0,
+        "comparison": "vs Last Month",
+        "icon": {
+          "codePoint": 59530,
+          "fontFamily": "MaterialIcons",
+          "fontPackage": null,
+          "matchTextDirection": false
+        }
+      }
+    ]
+  },
+  "loanOffer": {
+    "title": "Apply for Mudra Loan",
+    "description": "Get up to ₹10,00,000 for your business",
+    "maxAmount": 1000000.0,
+    "eligibility": "Eligible for small business owners"
+  },
+  "businessHealthMetrics": {
+    "cashFlow": "Positive",
+    "profitMargin": "65.4%",
+    "inventoryTurnover": "12.5",
+    "customerSatisfaction": "4.2/5",
+    "debtToEquity": "0.3",
+    "currentRatio": "2.1",
+    "quickRatio": "1.8",
+    "returnOnInvestment": "18.5%"
+  },
+  "financeOptions": [
+    {
+      "name": "Mudra Loan",
+      "amount": "₹10,00,000",
+      "interest": "8.5%",
+      "tenure": "5 years",
+      "eligibility": "Small business owners",
+      "processingFee": "1%",
+      "prepaymentCharges": "2%",
+      "documentsRequired": [
+        "Business Registration",
+        "Bank Statements",
+        "IT Returns",
+        "Address Proof"
+      ]
+    },
+    {
+      "name": "Working Capital Loan",
+      "amount": "₹5,00,000",
+      "interest": "12%",
+      "tenure": "2 years",
+      "eligibility": "Business with 2+ years history",
+      "processingFee": "1.5%",
+      "prepaymentCharges": "3%",
+      "documentsRequired": [
+        "Business Registration",
+        "Financial Statements",
+        "Bank Statements",
+        "IT Returns"
+      ]
+    },
+    {
+      "name": "Equipment Finance",
+      "amount": "₹15,00,000",
+      "interest": "10%",
+      "tenure": "3 years",
+      "eligibility": "Equipment purchase",
+      "processingFee": "2%",
+      "prepaymentCharges": "4%",
+      "documentsRequired": [
+        "Equipment Quotation",
+        "Business Registration",
+        "Bank Statements",
+        "IT Returns"
+      ]
+    },
+    {
+      "name": "Invoice Financing",
+      "amount": "₹8,00,000",
+      "interest": "15%",
+      "tenure": "1 year",
+      "eligibility": "Business with regular invoices",
+      "processingFee": "1%",
+      "prepaymentCharges": "1%",
+      "documentsRequired": [
+        "Invoice Copies",
+        "Business Registration",
+        "Bank Statements"
+      ]
+    }
+  ],
+  "inventoryData": [
+    {
+      "item": "Product A",
+      "quantity": 150,
+      "value": "₹45,000",
+      "status": "In Stock",
+      "category": "Electronics",
+      "reorderLevel": 50,
+      "supplier": "Tech Supplies Ltd"
+    },
+    {
+      "item": "Product B",
+      "quantity": 75,
+      "value": "₹22,500",
+      "status": "Low Stock",
+      "category": "Clothing",
+      "reorderLevel": 100,
+      "supplier": "Fashion Wholesale"
+    },
+    {
+      "item": "Product C",
+      "quantity": 0,
+      "value": "₹0",
+      "status": "Out of Stock",
+      "category": "Home & Garden",
+      "reorderLevel": 25,
+      "supplier": "Home Essentials"
+    },
+    {
+      "item": "Product D",
+      "quantity": 200,
+      "value": "₹60,000",
+      "status": "In Stock",
+      "category": "Electronics",
+      "reorderLevel": 75,
+      "supplier": "Tech Supplies Ltd"
+    },
+    {
+      "item": "Product E",
+      "quantity": 30,
+      "value": "₹9,000",
+      "status": "Low Stock",
+      "category": "Books",
+      "reorderLevel": 50,
+      "supplier": "Book Distributors"
+    }
+  ],
+  "salesAnalytics": {
+    "dailySales": [
+      {
+        "date": "2024-01-10",
+        "sales": 4800.0,
+        "orders": 12
+      },
+      {
+        "date": "2024-01-11",
+        "sales": 5200.0,
+        "orders": 15
+      },
+      {
+        "date": "2024-01-12",
+        "sales": 6100.0,
+        "orders": 18
+      },
+      {
+        "date": "2024-01-13",
+        "sales": 5400.0,
+        "orders": 14
+      },
+      {
+        "date": "2024-01-14",
+        "sales": 4900.0,
+        "orders": 13
+      },
+      {
+        "date": "2024-01-15",
+        "sales": 5200.0,
+        "orders": 16
+      }
+    ],
+    "topProducts": [
+      {
+        "name": "Product A",
+        "sales": 15000.0,
+        "units": 50
+      },
+      {
+        "name": "Product D",
+        "sales": 12000.0,
+        "units": 40
+      },
+      {
+        "name": "Product B",
+        "sales": 9000.0,
+        "units": 30
+      }
+    ],
+    "salesByCategory": [
+      {
+        "category": "Electronics",
+        "sales": 27000.0,
+        "percentage": 45.0
+      },
+      {
+        "category": "Clothing",
+        "sales": 15000.0,
+        "percentage": 25.0
+      },
+      {
+        "category": "Home & Garden",
+        "sales": 12000.0,
+        "percentage": 20.0
+      },
+      {
+        "category": "Books",
+        "sales": 6000.0,
+        "percentage": 10.0
+      }
+    ]
+  },
+  "expenseAnalytics": {
+    "monthlyExpenses": [
+      {
+        "month": "Jan",
+        "amount": 8500.0,
+        "category": "Mixed"
+      },
+      {
+        "month": "Feb",
+        "amount": 9200.0,
+        "category": "Mixed"
+      },
+      {
+        "month": "Mar",
+        "amount": 7800.0,
+        "category": "Mixed"
+      },
+      {
+        "month": "Apr",
+        "amount": 9500.0,
+        "category": "Mixed"
+      },
+      {
+        "month": "May",
+        "amount": 8700.0,
+        "category": "Mixed"
+      },
+      {
+        "month": "Jun",
+        "amount": 10200.0,
+        "category": "Mixed"
+      }
+    ],
+    "expenseByCategory": [
+      {
+        "category": "Inventory",
+        "amount": 45000.0,
+        "percentage": 45.0
+      },
+      {
+        "category": "Rent",
+        "amount": 24000.0,
+        "percentage": 24.0
+      },
+      {
+        "category": "Utilities",
+        "amount": 12000.0,
+        "percentage": 12.0
+      },
+      {
+        "category": "Marketing",
+        "amount": 10000.0,
+        "percentage": 10.0
+      },
+      {
+        "category": "Other",
+        "amount": 9000.0,
+        "percentage": 9.0
+      }
+    ]
+  },
+  "customerInsights": {
+    "totalCustomers": 1250,
+    "newCustomers": 85,
+    "repeatCustomers": 1165,
+    "averageOrderValue": 350.0,
+    "customerSatisfaction": 4.2,
+    "topCustomerSegments": [
+      {
+        "segment": "Regular Customers",
+        "count": 800,
+        "percentage": 64.0
+      },
+      {
+        "segment": "Occasional Buyers",
+        "count": 300,
+        "percentage": 24.0
+      },
+      {
+        "segment": "New Customers",
+        "count": 150,
+        "percentage": 12.0
+      }
+    ]
+  },
+  "businessInsights": [
+    {
+      "id": "1",
+      "title": "Sales Performance",
+      "description": "Your sales have increased by 12% compared to last month",
+      "type": "positive",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      }
+    },
+    {
+      "id": "2",
+      "title": "Inventory Alert",
+      "description": "Product B and Product E are running low on stock",
+      "type": "warning",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      }
+    },
+    {
+      "id": "3",
+      "title": "Profit Margin",
+      "description": "Your profit margin is healthy at 65.4%",
+      "type": "positive",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      }
+    },
+    {
+      "id": "4",
+      "title": "Loan Eligibility",
+      "description": "You are eligible for Mudra Loan up to ₹10,00,000",
+      "type": "info",
+      "icon": {
+        "codePoint": 59530,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      }
+    }
+  ],
+  "metadata": {
+    "generatedAt": "2024-01-15T10:30:00Z",
+    "version": "1.0.0",
+    "description": "Sample JSON for BusinessSummaryModel and all related Vyapar Margdarshak models with realistic business data",
+    "notes": {
+      "dateFormat": "Dates are in ISO format (YYYY-MM-DD) for easy parsing",
+      "iconCodePoints": "Icon code points correspond to Material Icons (e.g., 58729 = Icons.attach_money)",
+      "monetaryValues": "All monetary values are in Indian Rupees (₹)",
+      "percentages": "Percentage values are represented as decimals (e.g., 12.0 = 12%)",
+      "statusValues": "Status values: In Stock, Low Stock, Out of Stock, Positive, Negative",
+      "categories": "Business categories: Electronics, Clothing, Home & Garden, Books",
+      "loanTypes": "Loan types: Mudra Loan, Working Capital, Equipment Finance, Invoice Financing",
+      "businessMetrics": "Key metrics: Cash Flow, Profit Margin, Inventory Turnover, Customer Satisfaction"
+    }
+  }
+} 

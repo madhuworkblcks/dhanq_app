@@ -1,0 +1,375 @@
+{
+  "farmFinance": {
+    "upcomingPayments": [
+      {
+        "item": "Seeds & Fertilizers",
+        "amount": 4500.0,
+        "dueDate": "2024-03-15",
+        "category": "Inputs"
+      },
+      {
+        "item": "Pesticides",
+        "amount": 2800.0,
+        "dueDate": "2024-03-20",
+        "category": "Inputs"
+      },
+      {
+        "item": "Irrigation Equipment",
+        "amount": 12000.0,
+        "dueDate": "2024-04-05",
+        "category": "Equipment"
+      },
+      {
+        "item": "Labor Wages",
+        "amount": 8000.0,
+        "dueDate": "2024-03-25",
+        "category": "Labor"
+      },
+      {
+        "item": "Tractor Rental",
+        "amount": 3500.0,
+        "dueDate": "2024-03-30",
+        "category": "Equipment"
+      }
+    ],
+    "harvestIncomes": [
+      {
+        "crop": "Wheat",
+        "expectedIncome": 35000.0,
+        "expectedDate": "2024-04-15",
+        "status": "Growing"
+      },
+      {
+        "crop": "Rice",
+        "expectedIncome": 42000.0,
+        "expectedDate": "2024-05-10",
+        "status": "Planted"
+      },
+      {
+        "crop": "Cotton",
+        "expectedIncome": 28000.0,
+        "expectedDate": "2024-06-20",
+        "status": "Growing"
+      },
+      {
+        "crop": "Sugarcane",
+        "expectedIncome": 55000.0,
+        "expectedDate": "2024-07-15",
+        "status": "Growing"
+      },
+      {
+        "crop": "Pulses",
+        "expectedIncome": 18000.0,
+        "expectedDate": "2024-05-25",
+        "status": "Planted"
+      }
+    ]
+  },
+  "governmentSchemes": [
+    {
+      "name": "PM KISAN",
+      "status": "Active",
+      "nextInstallment": "2024-03-01",
+      "isEligible": true,
+      "description": "Next installment: Mar",
+      "actionText": "Check Status >"
+    },
+    {
+      "name": "Crop Insurance",
+      "status": "Expiring",
+      "nextInstallment": "2024-05-01",
+      "isEligible": true,
+      "description": "Coverage ends: 1 May",
+      "actionText": "Renew soon"
+    },
+    {
+      "name": "Kisan Credit Card",
+      "status": "Available",
+      "nextInstallment": "2024-06-01",
+      "isEligible": true,
+      "description": "Credit limit: ₹50,000",
+      "actionText": "Apply Now >"
+    },
+    {
+      "name": "Soil Health Card",
+      "status": "Active",
+      "nextInstallment": "2024-08-01",
+      "isEligible": true,
+      "description": "Valid until: Aug 2024",
+      "actionText": "View Report >"
+    },
+    {
+      "name": "PM Fasal Bima Yojana",
+      "status": "Enrolled",
+      "nextInstallment": "2024-04-01",
+      "isEligible": true,
+      "description": "Premium due: Apr",
+      "actionText": "Pay Premium >"
+    }
+  ],
+  "weatherMarket": {
+    "marketPrices": [
+      {
+        "crop": "Wheat",
+        "price": 2100.0,
+        "unit": "q",
+        "change": 2.5
+      },
+      {
+        "crop": "Rice",
+        "price": 2800.0,
+        "unit": "q",
+        "change": -1.2
+      },
+      {
+        "crop": "Cotton",
+        "price": 6500.0,
+        "unit": "q",
+        "change": 5.8
+      },
+      {
+        "crop": "Sugarcane",
+        "price": 320.0,
+        "unit": "q",
+        "change": 1.5
+      },
+      {
+        "crop": "Pulses",
+        "price": 4500.0,
+        "unit": "q",
+        "change": -0.8
+      },
+      {
+        "crop": "Oilseeds",
+        "price": 5200.0,
+        "unit": "q",
+        "change": 3.2
+      }
+    ],
+    "weatherForecast": {
+      "condition": "Rainfall expected",
+      "description": "Light to moderate rainfall in next 3 days",
+      "recommendation": "Consider crop insurance",
+      "icon": {
+        "codePoint": 57777,
+        "fontFamily": "MaterialIcons",
+        "fontPackage": null,
+        "matchTextDirection": false
+      }
+    }
+  },
+  "microLoanSHG": {
+    "loanPayments": [
+      {
+        "dueDate": "2024-03-20",
+        "amount": 5000.0,
+        "loanType": "Kisan Credit Card",
+        "status": "Due"
+      },
+      {
+        "dueDate": "2024-04-05",
+        "amount": 3000.0,
+        "loanType": "Micro Loan",
+        "status": "Upcoming"
+      },
+      {
+        "dueDate": "2024-04-15",
+        "amount": 7500.0,
+        "loanType": "Equipment Loan",
+        "status": "Upcoming"
+      },
+      {
+        "dueDate": "2024-05-01",
+        "amount": 2000.0,
+        "loanType": "SHG Loan",
+        "status": "Upcoming"
+      }
+    ],
+    "shgMeetings": [
+      {
+        "meetingDate": "2024-02-28",
+        "topic": "Financial Planning",
+        "location": "Village Panchayat",
+        "status": "Scheduled"
+      },
+      {
+        "meetingDate": "2024-03-15",
+        "topic": "Crop Insurance Discussion",
+        "location": "Community Hall",
+        "status": "Scheduled"
+      },
+      {
+        "meetingDate": "2024-03-30",
+        "topic": "Loan Repayment Planning",
+        "location": "Primary School",
+        "status": "Scheduled"
+      },
+      {
+        "meetingDate": "2024-04-10",
+        "topic": "Market Price Analysis",
+        "location": "Village Panchayat",
+        "status": "Scheduled"
+      }
+    ]
+  },
+  "voiceQuery": {
+    "prompt": "Ask me about your farm finances",
+    "suggestedQuery": "When should I sell my wheat?",
+    "isListening": false
+  },
+  "farmAnalytics": {
+    "totalExpenses": 32800.0,
+    "totalExpectedIncome": 178000.0,
+    "netProfit": 145200.0,
+    "profitMargin": 81.6,
+    "cropPerformance": [
+      {
+        "crop": "Wheat",
+        "area": 2.5,
+        "yield": 8.5,
+        "profit": 35000.0,
+        "status": "Good"
+      },
+      {
+        "crop": "Rice",
+        "area": 3.0,
+        "yield": 12.0,
+        "profit": 42000.0,
+        "status": "Excellent"
+      },
+      {
+        "crop": "Cotton",
+        "area": 1.5,
+        "yield": 4.2,
+        "profit": 28000.0,
+        "status": "Good"
+      }
+    ],
+    "monthlyExpenses": [
+      {
+        "month": "January",
+        "amount": 8500.0,
+        "category": "Seeds & Fertilizers"
+      },
+      {
+        "month": "February",
+        "amount": 6200.0,
+        "category": "Pesticides"
+      },
+      {
+        "month": "March",
+        "amount": 18100.0,
+        "category": "Mixed"
+      }
+    ]
+  },
+  "cropCalendar": {
+    "currentSeason": "Rabi",
+    "nextSeason": "Kharif",
+    "activities": [
+      {
+        "activity": "Wheat Harvesting",
+        "startDate": "2024-04-01",
+        "endDate": "2024-04-30",
+        "status": "Upcoming",
+        "priority": "High"
+      },
+      {
+        "activity": "Rice Transplantation",
+        "startDate": "2024-05-01",
+        "endDate": "2024-05-15",
+        "status": "Planned",
+        "priority": "Medium"
+      },
+      {
+        "activity": "Cotton Sowing",
+        "startDate": "2024-06-01",
+        "endDate": "2024-06-15",
+        "status": "Planned",
+        "priority": "Medium"
+      }
+    ]
+  },
+  "marketInsights": {
+    "trendingCrops": [
+      {
+        "crop": "Cotton",
+        "trend": "Rising",
+        "reason": "Export demand increasing",
+        "recommendation": "Consider increasing area"
+      },
+      {
+        "crop": "Pulses",
+        "trend": "Stable",
+        "reason": "Good domestic demand",
+        "recommendation": "Maintain current area"
+      },
+      {
+        "crop": "Wheat",
+        "trend": "Falling",
+        "reason": "High supply in market",
+        "recommendation": "Store for better prices"
+      }
+    ],
+    "priceAlerts": [
+      {
+        "crop": "Rice",
+        "currentPrice": 2800.0,
+        "targetPrice": 3000.0,
+        "alert": "Price approaching target"
+      },
+      {
+        "crop": "Cotton",
+        "currentPrice": 6500.0,
+        "targetPrice": 7000.0,
+        "alert": "Good time to sell"
+      }
+    ]
+  },
+  "financialTips": [
+    {
+      "id": "1",
+      "title": "Optimize Input Costs",
+      "description": "Bulk purchase of fertilizers can save 15-20% on costs",
+      "category": "Cost Management",
+      "priority": "High"
+    },
+    {
+      "id": "2",
+      "title": "Diversify Crops",
+      "description": "Planting multiple crops reduces risk and improves income stability",
+      "category": "Risk Management",
+      "priority": "Medium"
+    },
+    {
+      "id": "3",
+      "title": "Use Crop Insurance",
+      "description": "Protect your crops against weather and pest damage",
+      "category": "Risk Management",
+      "priority": "High"
+    },
+    {
+      "id": "4",
+      "title": "Monitor Market Prices",
+      "description": "Track daily prices to sell at optimal times",
+      "category": "Market Intelligence",
+      "priority": "Medium"
+    }
+  ],
+  "metadata": {
+    "generatedAt": "2024-01-15T10:30:00Z",
+    "version": "1.0.0",
+    "description": "Sample JSON for FarmFinanceModel and all related Kisaan Saathi models with realistic farm finance data",
+    "notes": {
+      "dateFormat": "Dates are in ISO format (YYYY-MM-DD) for easy parsing",
+      "iconCodePoints": "Icon code points correspond to Material Icons (e.g., 57777 = Icons.cloud)",
+      "monetaryValues": "All monetary values are in Indian Rupees (₹)",
+      "cropUnits": "Crop prices are per quintal (q)",
+      "statusValues": "Status values: Growing, Planted, Due, Upcoming, Scheduled, Active, Expiring, Available, Enrolled",
+      "categories": "Payment categories: Inputs, Equipment, Labor, Insurance, Loans",
+      "seasons": "Farming seasons: Rabi (winter), Kharif (monsoon), Zaid (summer)",
+      "priorities": "Priority levels: High, Medium, Low",
+      "trends": "Market trends: Rising, Falling, Stable"
+    }
+  }
+} 

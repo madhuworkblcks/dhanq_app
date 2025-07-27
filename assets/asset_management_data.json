@@ -1,0 +1,122 @@
+{
+  "portfolio": {
+    "totalValue": 1250000,
+    "todayGain": 12500,
+    "totalGain": 150000,
+    "gainPercentage": 13.6
+  },
+  "assets": [
+    {
+      "id": "1",
+      "name": "TechCorp Inc",
+      "type": "Stocks",
+      "value": 500000,
+      "percentage": 40.0,
+      "change": 2500,
+      "changePercentage": 0.5,
+      "quantity": 1000,
+      "avgPrice": 500,
+      "currentPrice": 502.5
+    },
+    {
+      "id": "2",
+      "name": "Large Cap Fund",
+      "type": "Mutual Funds",
+      "value": 375000,
+      "percentage": 30.0,
+      "change": 7500,
+      "changePercentage": 2.0,
+      "quantity": 1500,
+      "avgPrice": 250,
+      "currentPrice": 255
+    },
+    {
+      "id": "3",
+      "name": "Fixed Deposit",
+      "type": "Fixed Deposits",
+      "value": 250000,
+      "percentage": 20.0,
+      "change": 1250,
+      "changePercentage": 0.5,
+      "quantity": 1,
+      "avgPrice": 250000,
+      "currentPrice": 251250
+    },
+    {
+      "id": "4",
+      "name": "Savings Account",
+      "type": "Cash",
+      "value": 125000,
+      "percentage": 10.0,
+      "change": 1250,
+      "changePercentage": 1.0,
+      "quantity": 1,
+      "avgPrice": 125000,
+      "currentPrice": 126250
+    }
+  ],
+  "allocation": {
+    "Stocks": 40.0,
+    "Mutual Funds": 30.0,
+    "Fixed Deposits": 20.0,
+    "Cash": 10.0
+  },
+  "recentTransactions": [
+    {
+      "id": "1",
+      "type": "buy",
+      "asset": "TechCorp Inc",
+      "quantity": 100,
+      "price": 500,
+      "amount": 50000,
+      "timestamp": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "2",
+      "type": "sell",
+      "asset": "Large Cap Fund",
+      "quantity": 50,
+      "price": 255,
+      "amount": 12750,
+      "timestamp": "2024-01-14T15:45:00Z"
+    },
+    {
+      "id": "3",
+      "type": "buy",
+      "asset": "Fixed Deposit",
+      "quantity": 1,
+      "price": 250000,
+      "amount": 250000,
+      "timestamp": "2024-01-13T09:20:00Z"
+    }
+  ],
+  "performance": {
+    "daily": 0.5,
+    "weekly": 2.1,
+    "monthly": 8.5,
+    "yearly": 13.6
+  },
+  "insights": [
+    {
+      "id": "1",
+      "title": "High Concentration in Tech",
+      "description": "Your portfolio has 40% exposure to technology stocks. Consider diversifying to reduce risk.",
+      "type": "warning",
+      "priority": "high"
+    },
+    {
+      "id": "2",
+      "title": "Good Cash Position",
+      "description": "You maintain a healthy 10% cash position for opportunities and emergencies.",
+      "type": "positive",
+      "priority": "medium"
+    },
+    {
+      "id": "3",
+      "title": "Fixed Income Stability",
+      "description": "Your fixed deposits provide stable returns and help balance portfolio volatility.",
+      "type": "positive",
+      "priority": "low"
+    }
+  ]
+} 

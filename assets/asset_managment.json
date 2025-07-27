@@ -1,0 +1,529 @@
+{
+  "assetModel": {
+    "id": "asset_001",
+    "name": "Reliance Industries",
+    "value": 250000.0,
+    "percentageChange": 5.2,
+    "type": "stocks",
+    "category": "Large Cap"
+  },
+  "assetAllocationModel": {
+    "totalNetWorth": 1500000.0,
+    "ytdChange": 12.5,
+    "allocations": [
+      {
+        "name": "Stocks",
+        "percentage": 45.0,
+        "value": 675000.0,
+        "color": {
+          "red": 52,
+          "green": 152,
+          "blue": 219,
+          "alpha": 1.0
+        }
+      },
+      {
+        "name": "Mutual Funds",
+        "percentage": 30.0,
+        "value": 450000.0,
+        "color": {
+          "red": 46,
+          "green": 204,
+          "blue": 113,
+          "alpha": 1.0
+        }
+      },
+      {
+        "name": "Real Estate",
+        "percentage": 15.0,
+        "value": 225000.0,
+        "color": {
+          "red": 155,
+          "green": 89,
+          "blue": 182,
+          "alpha": 1.0
+        }
+      },
+      {
+        "name": "Fixed Income",
+        "percentage": 8.0,
+        "value": 120000.0,
+        "color": {
+          "red": 241,
+          "green": 196,
+          "blue": 15,
+          "alpha": 1.0
+        }
+      },
+      {
+        "name": "Cash",
+        "percentage": 2.0,
+        "value": 30000.0,
+        "color": {
+          "red": 231,
+          "green": 76,
+          "blue": 60,
+          "alpha": 1.0
+        }
+      }
+    ]
+  },
+  "assetCategoryModel": {
+    "name": "Stocks",
+    "totalValue": 675000.0,
+    "assets": [
+      {
+        "id": "stock_001",
+        "name": "Reliance Industries",
+        "value": 250000.0,
+        "percentageChange": 5.2,
+        "type": "stocks",
+        "category": "Large Cap"
+      },
+      {
+        "id": "stock_002",
+        "name": "TCS",
+        "value": 180000.0,
+        "percentageChange": -2.1,
+        "type": "stocks",
+        "category": "Large Cap"
+      },
+      {
+        "id": "stock_003",
+        "name": "HDFC Bank",
+        "value": 120000.0,
+        "percentageChange": 3.8,
+        "type": "stocks",
+        "category": "Large Cap"
+      },
+      {
+        "id": "stock_004",
+        "name": "Infosys",
+        "value": 95000.0,
+        "percentageChange": 1.5,
+        "type": "stocks",
+        "category": "Large Cap"
+      },
+      {
+        "id": "stock_005",
+        "name": "ITC",
+        "value": 30000.0,
+        "percentageChange": -0.8,
+        "type": "stocks",
+        "category": "Large Cap"
+      }
+    ]
+  },
+  "portfolioAllocationModel": {
+    "totalValue": 1500000.0,
+    "allocations": [
+      {
+        "name": "Equity",
+        "percentage": 75.0,
+        "value": 1125000.0,
+        "color": {
+          "red": 52,
+          "green": 152,
+          "blue": 219,
+          "alpha": 1.0
+        }
+      },
+      {
+        "name": "Debt",
+        "percentage": 20.0,
+        "value": 300000.0,
+        "color": {
+          "red": 46,
+          "green": 204,
+          "blue": 113,
+          "alpha": 1.0
+        }
+      },
+      {
+        "name": "Cash",
+        "percentage": 5.0,
+        "value": 75000.0,
+        "color": {
+          "red": 241,
+          "green": 196,
+          "blue": 15,
+          "alpha": 1.0
+        }
+      }
+    ]
+  },
+  "assetTypes": {
+    "stocks": {
+      "name": "Stocks",
+      "description": "Equity investments in publicly traded companies",
+      "riskLevel": "high",
+      "expectedReturn": 12.0,
+      "examples": ["Reliance", "TCS", "HDFC Bank", "Infosys"]
+    },
+    "mutualFunds": {
+      "name": "Mutual Funds",
+      "description": "Pooled investment funds managed by professionals",
+      "riskLevel": "medium",
+      "expectedReturn": 10.0,
+      "examples": ["Axis Bluechip Fund", "HDFC Mid-Cap Fund", "SBI Small Cap Fund"]
+    },
+    "realEstate": {
+      "name": "Real Estate",
+      "description": "Property investments including residential and commercial",
+      "riskLevel": "medium",
+      "expectedReturn": 8.0,
+      "examples": ["Residential Property", "Commercial Property", "REITs"]
+    },
+    "fixedIncome": {
+      "name": "Fixed Income",
+      "description": "Debt instruments with fixed interest payments",
+      "riskLevel": "low",
+      "expectedReturn": 6.0,
+      "examples": ["Government Bonds", "Corporate Bonds", "Fixed Deposits"]
+    },
+    "cash": {
+      "name": "Cash",
+      "description": "Liquid cash and cash equivalents",
+      "riskLevel": "very_low",
+      "expectedReturn": 3.0,
+      "examples": ["Savings Account", "Money Market Funds", "Treasury Bills"]
+    },
+    "others": {
+      "name": "Others",
+      "description": "Alternative investments and other assets",
+      "riskLevel": "variable",
+      "expectedReturn": 7.0,
+      "examples": ["Gold", "Commodities", "Cryptocurrencies", "Art"]
+    }
+  },
+  "sampleAssets": {
+    "stocks": [
+      {
+        "id": "stock_001",
+        "name": "Reliance Industries",
+        "value": 250000.0,
+        "percentageChange": 5.2,
+        "type": "stocks",
+        "category": "Large Cap",
+        "symbol": "RELIANCE",
+        "currentPrice": 2500.0,
+        "quantity": 100,
+        "purchasePrice": 2375.0,
+        "purchaseDate": "2023-01-15"
+      },
+      {
+        "id": "stock_002",
+        "name": "TCS",
+        "value": 180000.0,
+        "percentageChange": -2.1,
+        "type": "stocks",
+        "category": "Large Cap",
+        "symbol": "TCS",
+        "currentPrice": 3600.0,
+        "quantity": 50,
+        "purchasePrice": 3675.0,
+        "purchaseDate": "2023-03-20"
+      }
+    ],
+    "mutualFunds": [
+      {
+        "id": "mf_001",
+        "name": "Axis Bluechip Fund",
+        "value": 150000.0,
+        "percentageChange": 8.5,
+        "type": "mutualFunds",
+        "category": "Large Cap",
+        "nav": 45.25,
+        "units": 3314.92,
+        "purchaseNav": 41.70,
+        "purchaseDate": "2022-12-10"
+      },
+      {
+        "id": "mf_002",
+        "name": "HDFC Mid-Cap Fund",
+        "value": 120000.0,
+        "percentageChange": 12.3,
+        "type": "mutualFunds",
+        "category": "Mid Cap",
+        "nav": 67.80,
+        "units": 1769.91,
+        "purchaseNav": 60.35,
+        "purchaseDate": "2023-02-05"
+      }
+    ],
+    "realEstate": [
+      {
+        "id": "re_001",
+        "name": "Residential Property - Mumbai",
+        "value": 225000.0,
+        "percentageChange": 15.0,
+        "type": "realEstate",
+        "category": "Residential",
+        "location": "Mumbai, Maharashtra",
+        "area": 1200.0,
+        "purchasePrice": 195652.17,
+        "purchaseDate": "2021-08-15",
+        "currentMarketValue": 225000.0
+      }
+    ],
+    "fixedIncome": [
+      {
+        "id": "fi_001",
+        "name": "Government Securities",
+        "value": 80000.0,
+        "percentageChange": 4.2,
+        "type": "fixedIncome",
+        "category": "Government Bonds",
+        "interestRate": 6.5,
+        "maturityDate": "2025-03-15",
+        "purchaseDate": "2023-01-10",
+        "faceValue": 100000.0
+      },
+      {
+        "id": "fi_002",
+        "name": "Corporate Bond - HDFC",
+        "value": 40000.0,
+        "percentageChange": 3.8,
+        "type": "fixedIncome",
+        "category": "Corporate Bonds",
+        "interestRate": 7.2,
+        "maturityDate": "2024-12-31",
+        "purchaseDate": "2023-04-20",
+        "faceValue": 40000.0
+      }
+    ],
+    "cash": [
+      {
+        "id": "cash_001",
+        "name": "Savings Account",
+        "value": 20000.0,
+        "percentageChange": 0.0,
+        "type": "cash",
+        "category": "Bank Deposits",
+        "interestRate": 3.5,
+        "accountNumber": "XXXX1234",
+        "bankName": "HDFC Bank"
+      },
+      {
+        "id": "cash_002",
+        "name": "Fixed Deposit",
+        "value": 10000.0,
+        "percentageChange": 0.0,
+        "type": "cash",
+        "category": "Fixed Deposits",
+        "interestRate": 6.0,
+        "maturityDate": "2024-06-15",
+        "purchaseDate": "2023-06-15",
+        "principal": 10000.0
+      }
+    ]
+  },
+  "portfolioSummary": {
+    "totalNetWorth": 1500000.0,
+    "totalInvested": 1425000.0,
+    "totalGain": 75000.0,
+    "totalGainPercentage": 5.26,
+    "ytdChange": 12.5,
+    "ytdChangeValue": 166666.67,
+    "monthlyChange": 2.1,
+    "monthlyChangeValue": 30882.35,
+    "riskScore": 7.2,
+    "diversificationScore": 8.5,
+    "lastUpdated": "2024-01-15T10:30:00Z"
+  },
+  "performanceMetrics": {
+    "totalReturn": 5.26,
+    "annualizedReturn": 12.5,
+    "volatility": 15.2,
+    "sharpeRatio": 0.82,
+    "maxDrawdown": -8.5,
+    "beta": 1.1,
+    "alpha": 2.3,
+    "informationRatio": 0.95,
+    "trackingError": 3.2,
+    "sortinoRatio": 1.25
+  },
+  "assetAllocationBreakdown": {
+    "byType": {
+      "stocks": {
+        "value": 430000.0,
+        "percentage": 28.67,
+        "count": 5
+      },
+      "mutualFunds": {
+        "value": 270000.0,
+        "percentage": 18.0,
+        "count": 2
+      },
+      "realEstate": {
+        "value": 225000.0,
+        "percentage": 15.0,
+        "count": 1
+      },
+      "fixedIncome": {
+        "value": 120000.0,
+        "percentage": 8.0,
+        "count": 2
+      },
+      "cash": {
+        "value": 30000.0,
+        "percentage": 2.0,
+        "count": 2
+      }
+    },
+    "byCategory": {
+      "largeCap": {
+        "value": 430000.0,
+        "percentage": 28.67,
+        "count": 5
+      },
+      "midCap": {
+        "value": 120000.0,
+        "percentage": 8.0,
+        "count": 1
+      },
+      "governmentBonds": {
+        "value": 80000.0,
+        "percentage": 5.33,
+        "count": 1
+      },
+      "corporateBonds": {
+        "value": 40000.0,
+        "percentage": 2.67,
+        "count": 1
+      },
+      "residential": {
+        "value": 225000.0,
+        "percentage": 15.0,
+        "count": 1
+      },
+      "bankDeposits": {
+        "value": 20000.0,
+        "percentage": 1.33,
+        "count": 1
+      },
+      "fixedDeposits": {
+        "value": 10000.0,
+        "percentage": 0.67,
+        "count": 1
+      }
+    },
+    "byRisk": {
+      "high": {
+        "value": 430000.0,
+        "percentage": 28.67,
+        "count": 5
+      },
+      "medium": {
+        "value": 615000.0,
+        "percentage": 41.0,
+        "count": 3
+      },
+      "low": {
+        "value": 120000.0,
+        "percentage": 8.0,
+        "count": 2
+      },
+      "veryLow": {
+        "value": 30000.0,
+        "percentage": 2.0,
+        "count": 2
+      }
+    }
+  },
+  "recentTransactions": [
+    {
+      "id": "txn_001",
+      "type": "buy",
+      "assetName": "Reliance Industries",
+      "assetType": "stocks",
+      "quantity": 10,
+      "price": 2500.0,
+      "totalAmount": 25000.0,
+      "date": "2024-01-15T09:30:00Z",
+      "status": "completed"
+    },
+    {
+      "id": "txn_002",
+      "type": "sell",
+      "assetName": "TCS",
+      "assetType": "stocks",
+      "quantity": 5,
+      "price": 3600.0,
+      "totalAmount": 18000.0,
+      "date": "2024-01-14T14:20:00Z",
+      "status": "completed"
+    },
+    {
+      "id": "txn_003",
+      "type": "buy",
+      "assetName": "Axis Bluechip Fund",
+      "assetType": "mutualFunds",
+      "quantity": 1000.0,
+      "price": 45.25,
+      "totalAmount": 45250.0,
+      "date": "2024-01-13T11:15:00Z",
+      "status": "completed"
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal_001",
+      "name": "Retirement Fund",
+      "targetAmount": 5000000.0,
+      "currentAmount": 1500000.0,
+      "targetDate": "2035-12-31",
+      "progress": 30.0,
+      "priority": "high",
+      "assetAllocation": {
+        "stocks": 60.0,
+        "mutualFunds": 25.0,
+        "fixedIncome": 10.0,
+        "cash": 5.0
+      }
+    },
+    {
+      "id": "goal_002",
+      "name": "Children's Education",
+      "targetAmount": 2000000.0,
+      "currentAmount": 500000.0,
+      "targetDate": "2030-06-30",
+      "progress": 25.0,
+      "priority": "medium",
+      "assetAllocation": {
+        "stocks": 40.0,
+        "mutualFunds": 40.0,
+        "fixedIncome": 15.0,
+        "cash": 5.0
+      }
+    }
+  ],
+  "alerts": [
+    {
+      "id": "alert_001",
+      "type": "price_alert",
+      "assetName": "Reliance Industries",
+      "message": "Reliance Industries has reached your target price of ₹2500",
+      "severity": "info",
+      "date": "2024-01-15T10:00:00Z",
+      "isRead": false
+    },
+    {
+      "id": "alert_002",
+      "type": "rebalance_alert",
+      "message": "Your portfolio allocation has drifted. Consider rebalancing.",
+      "severity": "warning",
+      "date": "2024-01-14T16:30:00Z",
+      "isRead": true
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "lastSync": "2024-01-15T10:30:00Z",
+    "dataSource": "portfolio_tracker",
+    "currency": "INR",
+    "timezone": "Asia/Kolkata",
+    "userId": "user_12345",
+    "portfolioId": "portfolio_001"
+  }
+}
